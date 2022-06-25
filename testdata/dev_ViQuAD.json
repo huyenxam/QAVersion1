@@ -1,0 +1,1002 @@
+[
+    {
+        "answer": "nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            1,
+            12
+        ],
+        "question": "Vị_trí địa_lý của Paris có gì đặc_biệt ?"
+    },
+    {
+        "answer": "điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            3,
+            21
+        ],
+        "question": "Vị_trí địa_lý của Paris có gì đặc_biệt ?"
+    },
+    {
+        "answer": "điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            3,
+            21
+        ],
+        "question": "Vị_trí địa_lý của Paris có gì đặc_biệt ?"
+    },
+    {
+        "answer": "điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            3,
+            21
+        ],
+        "question": "Vị_trí địa_lý của Paris có gì đặc_biệt ?"
+    },
+    {
+        "answer": "nông_nghiệp",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            20,
+            20
+        ],
+        "question": "Kinh_tế xung_quanh kinh_đô ánh_sáng mạnh về gì ?"
+    },
+    {
+        "answer": "giáo_dục và nghệ_thuật",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            60,
+            62
+        ],
+        "question": "Kinh_tế xung_quanh kinh_đô ánh_sáng mạnh về gì ?"
+    },
+    {
+        "answer": "giáo_dục và nghệ_thuật",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            60,
+            62
+        ],
+        "question": "Kinh_tế xung_quanh kinh_đô ánh_sáng mạnh về gì ?"
+    },
+    {
+        "answer": "giáo_dục và nghệ_thuật",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            60,
+            62
+        ],
+        "question": "Kinh_tế xung_quanh kinh_đô ánh_sáng mạnh về gì ?"
+    },
+    {
+        "answer": "Paris",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            67,
+            67
+        ],
+        "question": "Cuộc cách_mạng Pháp diễn ra ở đâu ?"
+    },
+    {
+        "answer": "Paris",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            67,
+            67
+        ],
+        "question": "Cuộc cách_mạng Pháp diễn ra ở đâu ?"
+    },
+    {
+        "answer": "Paris",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            67,
+            67
+        ],
+        "question": "Cuộc cách_mạng Pháp diễn ra ở đâu ?"
+    },
+    {
+        "answer": "Paris",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            67,
+            67
+        ],
+        "question": "Cuộc cách_mạng Pháp diễn ra ở đâu ?"
+    },
+    {
+        "answer": "nghệ_thuật và giải_trí",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            118,
+            120
+        ],
+        "question": "Kinh_đô ánh_sáng nổi_tiếng về lĩnh_vực gì ?"
+    },
+    {
+        "answer": "trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            111,
+            120
+        ],
+        "question": "Kinh_đô ánh_sáng nổi_tiếng về lĩnh_vực gì ?"
+    },
+    {
+        "answer": "trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            111,
+            120
+        ],
+        "question": "Kinh_đô ánh_sáng nổi_tiếng về lĩnh_vực gì ?"
+    },
+    {
+        "answer": "trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            111,
+            120
+        ],
+        "question": "Kinh_đô ánh_sáng nổi_tiếng về lĩnh_vực gì ?"
+    },
+    {
+        "answer": "thế_kỷ 10",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            24,
+            25
+        ],
+        "question": "Paris là một thành_phố quan_trọng của nước Pháp bắt_đầu từ thời_gian nào ?"
+    },
+    {
+        "answer": "thế_kỷ 10",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            24,
+            25
+        ],
+        "question": "Paris là một thành_phố quan_trọng của nước Pháp bắt_đầu từ thời_gian nào ?"
+    },
+    {
+        "answer": "thế_kỷ 10",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            24,
+            25
+        ],
+        "question": "Paris là một thành_phố quan_trọng của nước Pháp bắt_đầu từ thời_gian nào ?"
+    },
+    {
+        "answer": "thế_kỷ 10",
+        "context": "Paris nằm ở điểm gặp nhau của các hành_trình thương_mại đường_bộ và đường_sông , và là trung_tâm của một vùng nông_nghiệp giàu_có . Vào thế_kỷ 10 , Paris đã là một trong những thành_phố chính của Pháp cùng các cung_điện hoàng_gia , các tu_viện và nhà_thờ . Từ thế_kỷ 12 , Paris trở_thành một trong những trung_tâm của châu_Âu về giáo_dục và nghệ_thuật . Thế_kỷ 14 , Paris là thành_phố quan_trọng bậc nhất của Cơ_Đốc_giáo và trong các thế_kỷ 16 , 17 , đây là nơi diễn ra Cách_mạng Pháp cùng nhiều sự_kiện lịch_sử quan_trọng của Pháp và châu_Âu . Đến thế_kỷ 19 và 20 , thành_phố trở_thành một trong những trung_tâm văn_hoá của thế_giới , thủ_đô của nghệ_thuật và giải_trí .",
+        "label": [
+            "ANSWER",
+            24,
+            25
+        ],
+        "question": "Paris là một thành_phố quan_trọng của nước Pháp bắt_đầu từ thời_gian nào ?"
+    },
+    {
+        "answer": "mỗi năm có đến 30 triệu khách nước_ngoài",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            38,
+            45
+        ],
+        "question": "Điều gì đã nói lên Paris là thành_phố lý_tưởng để khách du_lịch ?"
+    },
+    {
+        "answer": "Kinh_đô ánh_sáng",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            4,
+            5
+        ],
+        "question": "Điều gì đã nói lên Paris là thành_phố lý_tưởng để khách du_lịch ?"
+    },
+    {
+        "answer": "Kinh_đô ánh_sáng",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            4,
+            5
+        ],
+        "question": "Điều gì đã nói lên Paris là thành_phố lý_tưởng để khách du_lịch ?"
+    },
+    {
+        "answer": "Kinh_đô ánh_sáng",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            4,
+            5
+        ],
+        "question": "Điều gì đã nói lên Paris là thành_phố lý_tưởng để khách du_lịch ?"
+    },
+    {
+        "answer": "Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            26,
+            34
+        ],
+        "question": "Người ta đến với Paris vì điều gì ?"
+    },
+    {
+        "answer": "Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            26,
+            34
+        ],
+        "question": "Người ta đến với Paris vì điều gì ?"
+    },
+    {
+        "answer": "Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            26,
+            34
+        ],
+        "question": "Người ta đến với Paris vì điều gì ?"
+    },
+    {
+        "answer": "Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            26,
+            34
+        ],
+        "question": "Người ta đến với Paris vì điều gì ?"
+    },
+    {
+        "answer": "Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            47,
+            64
+        ],
+        "question": "Kinh_đô ánh_sáng nổi_tiếng như_thế_nào trong lĩnh_vực thời_trang mua_sắm ?"
+    },
+    {
+        "answer": "kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            52,
+            64
+        ],
+        "question": "Kinh_đô ánh_sáng nổi_tiếng như_thế_nào trong lĩnh_vực thời_trang mua_sắm ?"
+    },
+    {
+        "answer": "kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            52,
+            64
+        ],
+        "question": "Kinh_đô ánh_sáng nổi_tiếng như_thế_nào trong lĩnh_vực thời_trang mua_sắm ?"
+    },
+    {
+        "answer": "kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            52,
+            64
+        ],
+        "question": "Kinh_đô ánh_sáng nổi_tiếng như_thế_nào trong lĩnh_vực thời_trang mua_sắm ?"
+    },
+    {
+        "answer": "New_York , Luân_Đôn và Tokyo",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            119,
+            123
+        ],
+        "question": "Ngoài Paris , còn có thành_phố nào được đánh_giá là thành_phố toàn_cầu ?"
+    },
+    {
+        "answer": "New_York , Luân_Đôn và Tokyo",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            119,
+            123
+        ],
+        "question": "Ngoài Paris , còn có thành_phố nào được đánh_giá là thành_phố toàn_cầu ?"
+    },
+    {
+        "answer": "New_York , Luân_Đôn và Tokyo",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            119,
+            123
+        ],
+        "question": "Ngoài Paris , còn có thành_phố nào được đánh_giá là thành_phố toàn_cầu ?"
+    },
+    {
+        "answer": "New_York , Luân_Đôn và Tokyo",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            119,
+            123
+        ],
+        "question": "Ngoài Paris , còn có thành_phố nào được đánh_giá là thành_phố toàn_cầu ?"
+    },
+    {
+        "answer": "Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            66,
+            92
+        ],
+        "question": "Điều gì đã khiến Paris trở_thành nơi trung_chuyển trên toàn_cầu ?"
+    },
+    {
+        "answer": "nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            67,
+            92
+        ],
+        "question": "Điều gì đã khiến Paris trở_thành nơi trung_chuyển trên toàn_cầu ?"
+    },
+    {
+        "answer": "nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            67,
+            92
+        ],
+        "question": "Điều gì đã khiến Paris trở_thành nơi trung_chuyển trên toàn_cầu ?"
+    },
+    {
+        "answer": "nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch",
+        "context": "Nổi_tiếng với tên gọi Kinh_đô ánh_sáng , Paris là một trung_tâm văn_hoá lớn của thế_giới và cũng là một trong những thành_phố du_lịch thu_hút nhất . Sự nhộn_nhịp , các công_trình kiến_trúc và không_khí nghệ_sĩ đã giúp Paris mỗi năm có đến 30 triệu khách nước_ngoài . Thành_phố còn được xem như kinh_đô của thời_trang cao_cấp với nhiều khu_phố xa_xỉ cùng các trung_tâm thương_mại lớn . Là nơi đặt trụ_sở chính của các tổ_chức quốc_tế như OECD , UNESCO ... cộng với những hoạt_động đa_dạng về tài_chính , kinh_doanh , chính_trị và du_lịch đã khiến Paris trở_thành một trong những trung_tâm trung_chuyển lớn nhất trên thế_giới và được coi như một trong bốn \" thành_phố toàn_cầu \" cùng với New_York , Luân_Đôn và Tokyo .",
+        "label": [
+            "ANSWER",
+            67,
+            92
+        ],
+        "question": "Điều gì đã khiến Paris trở_thành nơi trung_chuyển trên toàn_cầu ?"
+    },
+    {
+        "answer": "Kinh_đô ánh_sáng",
+        "context": "Paris nổi_tiếng với tên gọi \" Kinh_đô ánh_sáng \" , vốn từ trong tiếng Pháp là \" Ville lumière \" , dịch chính_xác là Thành_phố ánh_sáng , cũng giống trong tiếng Anh : The_City of Lights . Tên gọi này được bắt_đầu từ nghĩa_đen của nó : cuối thế_kỷ 17 , trung_tướng cảnh_sát đầu_tiên của Paris_Gabriel_Nicolas de La_Reynie ra_lệnh thắp sáng những khu_vực công_cộng nhiều tệ_nạn của thành_phố . Nhưng bởi Paris nổi_tiếng với vị_trí trung_tâm văn_hoá , tri_thức của cả thế_giới , nên tên gọi này thường được hiểu theo nghĩa_bóng .",
+        "label": [
+            "ANSWER",
+            6,
+            7
+        ],
+        "question": "Người_dân trên thế_giới thường gọi Paris với tên khác là gì ?"
+    },
+    {
+        "answer": "Kinh_đô ánh_sáng",
+        "context": "Paris nổi_tiếng với tên gọi \" Kinh_đô ánh_sáng \" , vốn từ trong tiếng Pháp là \" Ville lumière \" , dịch chính_xác là Thành_phố ánh_sáng , cũng giống trong tiếng Anh : The_City of Lights . Tên gọi này được bắt_đầu từ nghĩa_đen của nó : cuối thế_kỷ 17 , trung_tướng cảnh_sát đầu_tiên của Paris_Gabriel_Nicolas de La_Reynie ra_lệnh thắp sáng những khu_vực công_cộng nhiều tệ_nạn của thành_phố . Nhưng bởi Paris nổi_tiếng với vị_trí trung_tâm văn_hoá , tri_thức của cả thế_giới , nên tên gọi này thường được hiểu theo nghĩa_bóng .",
+        "label": [
+            "ANSWER",
+            6,
+            7
+        ],
+        "question": "Người_dân trên thế_giới thường gọi Paris với tên khác là gì ?"
+    },
+    {
+        "answer": "Kinh_đô ánh_sáng",
+        "context": "Paris nổi_tiếng với tên gọi \" Kinh_đô ánh_sáng \" , vốn từ trong tiếng Pháp là \" Ville lumière \" , dịch chính_xác là Thành_phố ánh_sáng , cũng giống trong tiếng Anh : The_City of Lights . Tên gọi này được bắt_đầu từ nghĩa_đen của nó : cuối thế_kỷ 17 , trung_tướng cảnh_sát đầu_tiên của Paris_Gabriel_Nicolas de La_Reynie ra_lệnh thắp sáng những khu_vực công_cộng nhiều tệ_nạn của thành_phố . Nhưng bởi Paris nổi_tiếng với vị_trí trung_tâm văn_hoá , tri_thức của cả thế_giới , nên tên gọi này thường được hiểu theo nghĩa_bóng .",
+        "label": [
+            "ANSWER",
+            6,
+            7
+        ],
+        "question": "Người_dân trên thế_giới thường gọi Paris với tên khác là gì ?"
+    },
+    {
+        "answer": "Kinh_đô ánh_sáng",
+        "context": "Paris nổi_tiếng với tên gọi \" Kinh_đô ánh_sáng \" , vốn từ trong tiếng Pháp là \" Ville lumière \" , dịch chính_xác là Thành_phố ánh_sáng , cũng giống trong tiếng Anh : The_City of Lights . Tên gọi này được bắt_đầu từ nghĩa_đen của nó : cuối thế_kỷ 17 , trung_tướng cảnh_sát đầu_tiên của Paris_Gabriel_Nicolas de La_Reynie ra_lệnh thắp sáng những khu_vực công_cộng nhiều tệ_nạn của thành_phố . Nhưng bởi Paris nổi_tiếng với vị_trí trung_tâm văn_hoá , tri_thức của cả thế_giới , nên tên gọi này thường được hiểu theo nghĩa_bóng .",
+        "label": [
+            "ANSWER",
+            6,
+            7
+        ],
+        "question": "Người_dân trên thế_giới thường gọi Paris với tên khác là gì ?"
+    },
+    {
+        "answer": "The_City of Lights",
+        "context": "Paris nổi_tiếng với tên gọi \" Kinh_đô ánh_sáng \" , vốn từ trong tiếng Pháp là \" Ville lumière \" , dịch chính_xác là Thành_phố ánh_sáng , cũng giống trong tiếng Anh : The_City of Lights . Tên gọi này được bắt_đầu từ nghĩa_đen của nó : cuối thế_kỷ 17 , trung_tướng cảnh_sát đầu_tiên của Paris_Gabriel_Nicolas de La_Reynie ra_lệnh thắp sáng những khu_vực công_cộng nhiều tệ_nạn của thành_phố . Nhưng bởi Paris nổi_tiếng với vị_trí trung_tâm văn_hoá , tri_thức của cả thế_giới , nên tên gọi này thường được hiểu theo nghĩa_bóng .",
+        "label": [
+            "ANSWER",
+            33,
+            35
+        ],
+        "question": "Kinh_đô ánh_sáng dịch từ tiếng Pháp sang tiếng Anh chính_xác là gì ?"
+    },
+    {
+        "answer": "Thành_phố ánh_sáng",
+        "context": "Paris nổi_tiếng với tên gọi \" Kinh_đô ánh_sáng \" , vốn từ trong tiếng Pháp là \" Ville lumière \" , dịch chính_xác là Thành_phố ánh_sáng , cũng giống trong tiếng Anh : The_City of Lights . Tên gọi này được bắt_đầu từ nghĩa_đen của nó : cuối thế_kỷ 17 , trung_tướng cảnh_sát đầu_tiên của Paris_Gabriel_Nicolas de La_Reynie ra_lệnh thắp sáng những khu_vực công_cộng nhiều tệ_nạn của thành_phố . Nhưng bởi Paris nổi_tiếng với vị_trí trung_tâm văn_hoá , tri_thức của cả thế_giới , nên tên gọi này thường được hiểu theo nghĩa_bóng .",
+        "label": [
+            "ANSWER",
+            24,
+            25
+        ],
+        "question": "Kinh_đô ánh_sáng dịch từ tiếng Pháp sang tiếng Anh chính_xác là gì ?"
+    },
+    {
+        "answer": "Thành_phố ánh_sáng",
+        "context": "Paris nổi_tiếng với tên gọi \" Kinh_đô ánh_sáng \" , vốn từ trong tiếng Pháp là \" Ville lumière \" , dịch chính_xác là Thành_phố ánh_sáng , cũng giống trong tiếng Anh : The_City of Lights . Tên gọi này được bắt_đầu từ nghĩa_đen của nó : cuối thế_kỷ 17 , trung_tướng cảnh_sát đầu_tiên của Paris_Gabriel_Nicolas de La_Reynie ra_lệnh thắp sáng những khu_vực công_cộng nhiều tệ_nạn của thành_phố . Nhưng bởi Paris nổi_tiếng với vị_trí trung_tâm văn_hoá , tri_thức của cả thế_giới , nên tên gọi này thường được hiểu theo nghĩa_bóng .",
+        "label": [
+            "ANSWER",
+            24,
+            25
+        ],
+        "question": "Kinh_đô ánh_sáng dịch từ tiếng Pháp sang tiếng Anh chính_xác là gì ?"
+    },
+    {
+        "answer": "Thành_phố ánh_sáng",
+        "context": "Paris nổi_tiếng với tên gọi \" Kinh_đô ánh_sáng \" , vốn từ trong tiếng Pháp là \" Ville lumière \" , dịch chính_xác là Thành_phố ánh_sáng , cũng giống trong tiếng Anh : The_City of Lights . Tên gọi này được bắt_đầu từ nghĩa_đen của nó : cuối thế_kỷ 17 , trung_tướng cảnh_sát đầu_tiên của Paris_Gabriel_Nicolas de La_Reynie ra_lệnh thắp sáng những khu_vực công_cộng nhiều tệ_nạn của thành_phố . Nhưng bởi Paris nổi_tiếng với vị_trí trung_tâm văn_hoá , tri_thức của cả thế_giới , nên tên gọi này thường được hiểu theo nghĩa_bóng .",
+        "label": [
+            "ANSWER",
+            24,
+            25
+        ],
+        "question": "Kinh_đô ánh_sáng dịch từ tiếng Pháp sang tiếng Anh chính_xác là gì ?"
+    },
+    {
+        "answer": "cuối thế_kỷ 17 , trung_tướng cảnh_sát đầu_tiên của Paris_Gabriel_Nicolas de La_Reynie ra_lệnh thắp sáng những khu_vực công_cộng nhiều tệ_nạn của thành_phố",
+        "context": "Paris nổi_tiếng với tên gọi \" Kinh_đô ánh_sáng \" , vốn từ trong tiếng Pháp là \" Ville lumière \" , dịch chính_xác là Thành_phố ánh_sáng , cũng giống trong tiếng Anh : The_City of Lights . Tên gọi này được bắt_đầu từ nghĩa_đen của nó : cuối thế_kỷ 17 , trung_tướng cảnh_sát đầu_tiên của Paris_Gabriel_Nicolas de La_Reynie ra_lệnh thắp sáng những khu_vực công_cộng nhiều tệ_nạn của thành_phố . Nhưng bởi Paris nổi_tiếng với vị_trí trung_tâm văn_hoá , tri_thức của cả thế_giới , nên tên gọi này thường được hiểu theo nghĩa_bóng .",
+        "label": [
+            "ANSWER",
+            47,
+            67
+        ],
+        "question": "Tên gọi The_City of Lights bắt_nguồn từ sự_việc gì ?"
+    },
+    {
+        "answer": "cuối thế_kỷ 17 , trung_tướng cảnh_sát đầu_tiên của Paris_Gabriel_Nicolas de La_Reynie ra_lệnh thắp sáng những khu_vực công_cộng nhiều tệ_nạn của thành_phố",
+        "context": "Paris nổi_tiếng với tên gọi \" Kinh_đô ánh_sáng \" , vốn từ trong tiếng Pháp là \" Ville lumière \" , dịch chính_xác là Thành_phố ánh_sáng , cũng giống trong tiếng Anh : The_City of Lights . Tên gọi này được bắt_đầu từ nghĩa_đen của nó : cuối thế_kỷ 17 , trung_tướng cảnh_sát đầu_tiên của Paris_Gabriel_Nicolas de La_Reynie ra_lệnh thắp sáng những khu_vực công_cộng nhiều tệ_nạn của thành_phố . Nhưng bởi Paris nổi_tiếng với vị_trí trung_tâm văn_hoá , tri_thức của cả thế_giới , nên tên gọi này thường được hiểu theo nghĩa_bóng .",
+        "label": [
+            "ANSWER",
+            47,
+            67
+        ],
+        "question": "Tên gọi The_City of Lights bắt_nguồn từ sự_việc gì ?"
+    },
+    {
+        "answer": "cuối thế_kỷ 17 , trung_tướng cảnh_sát đầu_tiên của Paris_Gabriel_Nicolas de La_Reynie ra_lệnh thắp sáng những khu_vực công_cộng nhiều tệ_nạn của thành_phố",
+        "context": "Paris nổi_tiếng với tên gọi \" Kinh_đô ánh_sáng \" , vốn từ trong tiếng Pháp là \" Ville lumière \" , dịch chính_xác là Thành_phố ánh_sáng , cũng giống trong tiếng Anh : The_City of Lights . Tên gọi này được bắt_đầu từ nghĩa_đen của nó : cuối thế_kỷ 17 , trung_tướng cảnh_sát đầu_tiên của Paris_Gabriel_Nicolas de La_Reynie ra_lệnh thắp sáng những khu_vực công_cộng nhiều tệ_nạn của thành_phố . Nhưng bởi Paris nổi_tiếng với vị_trí trung_tâm văn_hoá , tri_thức của cả thế_giới , nên tên gọi này thường được hiểu theo nghĩa_bóng .",
+        "label": [
+            "ANSWER",
+            47,
+            67
+        ],
+        "question": "Tên gọi The_City of Lights bắt_nguồn từ sự_việc gì ?"
+    },
+    {
+        "answer": "cuối thế_kỷ 17 , trung_tướng cảnh_sát đầu_tiên của Paris_Gabriel_Nicolas de La_Reynie ra_lệnh thắp sáng những khu_vực công_cộng nhiều tệ_nạn của thành_phố",
+        "context": "Paris nổi_tiếng với tên gọi \" Kinh_đô ánh_sáng \" , vốn từ trong tiếng Pháp là \" Ville lumière \" , dịch chính_xác là Thành_phố ánh_sáng , cũng giống trong tiếng Anh : The_City of Lights . Tên gọi này được bắt_đầu từ nghĩa_đen của nó : cuối thế_kỷ 17 , trung_tướng cảnh_sát đầu_tiên của Paris_Gabriel_Nicolas de La_Reynie ra_lệnh thắp sáng những khu_vực công_cộng nhiều tệ_nạn của thành_phố . Nhưng bởi Paris nổi_tiếng với vị_trí trung_tâm văn_hoá , tri_thức của cả thế_giới , nên tên gọi này thường được hiểu theo nghĩa_bóng .",
+        "label": [
+            "ANSWER",
+            47,
+            67
+        ],
+        "question": "Tên gọi The_City of Lights bắt_nguồn từ sự_việc gì ?"
+    },
+    {
+        "answer": "Venezia , Paris",
+        "context": "Cùng với Venezia , Paris còn được ví là \" Thành_phố của tình_yêu \" . Những người yêu thích Paris cũng nói : Chỉ cần thêm hai chữ_cái , Paris trở_thành thiên_đường . Trong tiếng Pháp , thêm hai chữ a và d , Paris thành Paradis , có nghĩa là thiên_đường . Từ \" parisien \" trong tiếng Pháp là tính từ của Paris , cũng là danh_từ để chỉ những người_dân của thành_phố này . Ngoài_ra , \" parisien \" còn là một từ lóng được các nhà_văn của thế_kỷ 19 như Victor_Hugo , Eugène_Sue hay Balzac sử_dụng rộng_rãi và còn phổ_biến cho tới thập_niên 1950 .",
+        "label": [
+            "ANSWER",
+            2,
+            4
+        ],
+        "question": "Hai thành_phố nào được gọi là thành_phố của tình_yêu ?"
+    },
+    {
+        "answer": "Venezia , Paris",
+        "context": "Cùng với Venezia , Paris còn được ví là \" Thành_phố của tình_yêu \" . Những người yêu thích Paris cũng nói : Chỉ cần thêm hai chữ_cái , Paris trở_thành thiên_đường . Trong tiếng Pháp , thêm hai chữ a và d , Paris thành Paradis , có nghĩa là thiên_đường . Từ \" parisien \" trong tiếng Pháp là tính từ của Paris , cũng là danh_từ để chỉ những người_dân của thành_phố này . Ngoài_ra , \" parisien \" còn là một từ lóng được các nhà_văn của thế_kỷ 19 như Victor_Hugo , Eugène_Sue hay Balzac sử_dụng rộng_rãi và còn phổ_biến cho tới thập_niên 1950 .",
+        "label": [
+            "ANSWER",
+            2,
+            4
+        ],
+        "question": "Hai thành_phố nào được gọi là thành_phố của tình_yêu ?"
+    },
+    {
+        "answer": "Venezia , Paris",
+        "context": "Cùng với Venezia , Paris còn được ví là \" Thành_phố của tình_yêu \" . Những người yêu thích Paris cũng nói : Chỉ cần thêm hai chữ_cái , Paris trở_thành thiên_đường . Trong tiếng Pháp , thêm hai chữ a và d , Paris thành Paradis , có nghĩa là thiên_đường . Từ \" parisien \" trong tiếng Pháp là tính từ của Paris , cũng là danh_từ để chỉ những người_dân của thành_phố này . Ngoài_ra , \" parisien \" còn là một từ lóng được các nhà_văn của thế_kỷ 19 như Victor_Hugo , Eugène_Sue hay Balzac sử_dụng rộng_rãi và còn phổ_biến cho tới thập_niên 1950 .",
+        "label": [
+            "ANSWER",
+            2,
+            4
+        ],
+        "question": "Hai thành_phố nào được gọi là thành_phố của tình_yêu ?"
+    },
+    {
+        "answer": "Venezia , Paris",
+        "context": "Cùng với Venezia , Paris còn được ví là \" Thành_phố của tình_yêu \" . Những người yêu thích Paris cũng nói : Chỉ cần thêm hai chữ_cái , Paris trở_thành thiên_đường . Trong tiếng Pháp , thêm hai chữ a và d , Paris thành Paradis , có nghĩa là thiên_đường . Từ \" parisien \" trong tiếng Pháp là tính từ của Paris , cũng là danh_từ để chỉ những người_dân của thành_phố này . Ngoài_ra , \" parisien \" còn là một từ lóng được các nhà_văn của thế_kỷ 19 như Victor_Hugo , Eugène_Sue hay Balzac sử_dụng rộng_rãi và còn phổ_biến cho tới thập_niên 1950 .",
+        "label": [
+            "ANSWER",
+            2,
+            4
+        ],
+        "question": "Hai thành_phố nào được gọi là thành_phố của tình_yêu ?"
+    },
+    {
+        "answer": "từ đầu thế_kỷ 20 khi những chiếc mũ panama phổ_biến",
+        "context": "Một tên gọi thân_mật khác của Paris là \" Paname \" từ đầu thế_kỷ 20 khi những chiếc mũ panama phổ_biến . Bắt_đầu bởi các công_nhân đào con kênh Panama , loại mũ này rất thịnh_hành ở Mỹ và châu_Âu . Rồi đến Paris , tất_cả đàn_ông đều đội một chiếc panama và nó thành một tên gọi cho thành_phố . Cũ hơn_nữa , Paris và một trong các ngoại_ô là Pantin được gọi lóng là \" Pantruche \" theo tên công_ty tổ_chức lễ_hội Carnaval của Paris : Compagnie_Carnavalesque_Parisienne \" les Fumantes de Pantruche \" . \" Parigot \" cũng là một từ lóng để chỉ những người Paris , nhưng từ này ít_nhiều mang tính châm_chọc , chế_giễu .",
+        "label": [
+            "ANSWER",
+            11,
+            20
+        ],
+        "question": "Nguồn_gốc tên gọi Paname bắt_nguồn từ đâu ?"
+    },
+    {
+        "answer": "những chiếc mũ panama",
+        "context": "Một tên gọi thân_mật khác của Paris là \" Paname \" từ đầu thế_kỷ 20 khi những chiếc mũ panama phổ_biến . Bắt_đầu bởi các công_nhân đào con kênh Panama , loại mũ này rất thịnh_hành ở Mỹ và châu_Âu . Rồi đến Paris , tất_cả đàn_ông đều đội một chiếc panama và nó thành một tên gọi cho thành_phố . Cũ hơn_nữa , Paris và một trong các ngoại_ô là Pantin được gọi lóng là \" Pantruche \" theo tên công_ty tổ_chức lễ_hội Carnaval của Paris : Compagnie_Carnavalesque_Parisienne \" les Fumantes de Pantruche \" . \" Parigot \" cũng là một từ lóng để chỉ những người Paris , nhưng từ này ít_nhiều mang tính châm_chọc , chế_giễu .",
+        "label": [
+            "ANSWER",
+            16,
+            19
+        ],
+        "question": "Nguồn_gốc tên gọi Paname bắt_nguồn từ đâu ?"
+    },
+    {
+        "answer": "những chiếc mũ panama",
+        "context": "Một tên gọi thân_mật khác của Paris là \" Paname \" từ đầu thế_kỷ 20 khi những chiếc mũ panama phổ_biến . Bắt_đầu bởi các công_nhân đào con kênh Panama , loại mũ này rất thịnh_hành ở Mỹ và châu_Âu . Rồi đến Paris , tất_cả đàn_ông đều đội một chiếc panama và nó thành một tên gọi cho thành_phố . Cũ hơn_nữa , Paris và một trong các ngoại_ô là Pantin được gọi lóng là \" Pantruche \" theo tên công_ty tổ_chức lễ_hội Carnaval của Paris : Compagnie_Carnavalesque_Parisienne \" les Fumantes de Pantruche \" . \" Parigot \" cũng là một từ lóng để chỉ những người Paris , nhưng từ này ít_nhiều mang tính châm_chọc , chế_giễu .",
+        "label": [
+            "ANSWER",
+            16,
+            19
+        ],
+        "question": "Nguồn_gốc tên gọi Paname bắt_nguồn từ đâu ?"
+    },
+    {
+        "answer": "những chiếc mũ panama",
+        "context": "Một tên gọi thân_mật khác của Paris là \" Paname \" từ đầu thế_kỷ 20 khi những chiếc mũ panama phổ_biến . Bắt_đầu bởi các công_nhân đào con kênh Panama , loại mũ này rất thịnh_hành ở Mỹ và châu_Âu . Rồi đến Paris , tất_cả đàn_ông đều đội một chiếc panama và nó thành một tên gọi cho thành_phố . Cũ hơn_nữa , Paris và một trong các ngoại_ô là Pantin được gọi lóng là \" Pantruche \" theo tên công_ty tổ_chức lễ_hội Carnaval của Paris : Compagnie_Carnavalesque_Parisienne \" les Fumantes de Pantruche \" . \" Parigot \" cũng là một từ lóng để chỉ những người Paris , nhưng từ này ít_nhiều mang tính châm_chọc , chế_giễu .",
+        "label": [
+            "ANSWER",
+            16,
+            19
+        ],
+        "question": "Nguồn_gốc tên gọi Paname bắt_nguồn từ đâu ?"
+    },
+    {
+        "answer": "sông Seine",
+        "context": "Tại trung_tâm của bồn Paris , trên một vùng trầm_tích bằng_phẳng rộng_lớn , Paris nằm hai bên bờ sông Seine . Hai đảo của sông tạo nên trung_tâm lịch_sử của thành_phố : Île de la Cité ở phía tây và Île Saint-Louis ở phía đông . Từ_tâm này , thành_phố trải rộng ra xung_quanh , nhưng phần diện_tích Paris ở phía bắc - tức hữu_ngạn sông Seine - rộng hơn bên tả_ngạn phía nam rõ_rệt . Cả hai bên sông Seine , một_số vùng_đất tạo bởi đá thạch_cao nhô lên thành những quả đồi nhỏ . Ở hữu_ngạn : đồi Montmartre có độ cao là 131 mét , đỉnh là vị_trí nhà_thờ Saint-Pierre ; Belleville cao 128,5 m tại phố Télégraphe ; Ménilmontant 108 m ; công_viên Buttes-Chaumont 103 m ; Passy 71 m . Bên tả_ngạn : Montparnasse cao 66 m ; Butte aux Cailles 63 m ; đồi Sainte-Geneviève 61 m .",
+        "label": [
+            "ANSWER",
+            18,
+            19
+        ],
+        "question": "Con sông nào nằm trong lòng Paris ?"
+    },
+    {
+        "answer": "Seine",
+        "context": "Tại trung_tâm của bồn Paris , trên một vùng trầm_tích bằng_phẳng rộng_lớn , Paris nằm hai bên bờ sông Seine . Hai đảo của sông tạo nên trung_tâm lịch_sử của thành_phố : Île de la Cité ở phía tây và Île Saint-Louis ở phía đông . Từ_tâm này , thành_phố trải rộng ra xung_quanh , nhưng phần diện_tích Paris ở phía bắc - tức hữu_ngạn sông Seine - rộng hơn bên tả_ngạn phía nam rõ_rệt . Cả hai bên sông Seine , một_số vùng_đất tạo bởi đá thạch_cao nhô lên thành những quả đồi nhỏ . Ở hữu_ngạn : đồi Montmartre có độ cao là 131 mét , đỉnh là vị_trí nhà_thờ Saint-Pierre ; Belleville cao 128,5 m tại phố Télégraphe ; Ménilmontant 108 m ; công_viên Buttes-Chaumont 103 m ; Passy 71 m . Bên tả_ngạn : Montparnasse cao 66 m ; Butte aux Cailles 63 m ; đồi Sainte-Geneviève 61 m .",
+        "label": [
+            "ANSWER",
+            19,
+            19
+        ],
+        "question": "Con sông nào nằm trong lòng Paris ?"
+    },
+    {
+        "answer": "Seine",
+        "context": "Tại trung_tâm của bồn Paris , trên một vùng trầm_tích bằng_phẳng rộng_lớn , Paris nằm hai bên bờ sông Seine . Hai đảo của sông tạo nên trung_tâm lịch_sử của thành_phố : Île de la Cité ở phía tây và Île Saint-Louis ở phía đông . Từ_tâm này , thành_phố trải rộng ra xung_quanh , nhưng phần diện_tích Paris ở phía bắc - tức hữu_ngạn sông Seine - rộng hơn bên tả_ngạn phía nam rõ_rệt . Cả hai bên sông Seine , một_số vùng_đất tạo bởi đá thạch_cao nhô lên thành những quả đồi nhỏ . Ở hữu_ngạn : đồi Montmartre có độ cao là 131 mét , đỉnh là vị_trí nhà_thờ Saint-Pierre ; Belleville cao 128,5 m tại phố Télégraphe ; Ménilmontant 108 m ; công_viên Buttes-Chaumont 103 m ; Passy 71 m . Bên tả_ngạn : Montparnasse cao 66 m ; Butte aux Cailles 63 m ; đồi Sainte-Geneviève 61 m .",
+        "label": [
+            "ANSWER",
+            19,
+            19
+        ],
+        "question": "Con sông nào nằm trong lòng Paris ?"
+    },
+    {
+        "answer": "Seine",
+        "context": "Tại trung_tâm của bồn Paris , trên một vùng trầm_tích bằng_phẳng rộng_lớn , Paris nằm hai bên bờ sông Seine . Hai đảo của sông tạo nên trung_tâm lịch_sử của thành_phố : Île de la Cité ở phía tây và Île Saint-Louis ở phía đông . Từ_tâm này , thành_phố trải rộng ra xung_quanh , nhưng phần diện_tích Paris ở phía bắc - tức hữu_ngạn sông Seine - rộng hơn bên tả_ngạn phía nam rõ_rệt . Cả hai bên sông Seine , một_số vùng_đất tạo bởi đá thạch_cao nhô lên thành những quả đồi nhỏ . Ở hữu_ngạn : đồi Montmartre có độ cao là 131 mét , đỉnh là vị_trí nhà_thờ Saint-Pierre ; Belleville cao 128,5 m tại phố Télégraphe ; Ménilmontant 108 m ; công_viên Buttes-Chaumont 103 m ; Passy 71 m . Bên tả_ngạn : Montparnasse cao 66 m ; Butte aux Cailles 63 m ; đồi Sainte-Geneviève 61 m .",
+        "label": [
+            "ANSWER",
+            19,
+            19
+        ],
+        "question": "Con sông nào nằm trong lòng Paris ?"
+    },
+    {
+        "answer": "Île de la Cité ở phía tây và Île Saint-Louis ở phía đông",
+        "context": "Tại trung_tâm của bồn Paris , trên một vùng trầm_tích bằng_phẳng rộng_lớn , Paris nằm hai bên bờ sông Seine . Hai đảo của sông tạo nên trung_tâm lịch_sử của thành_phố : Île de la Cité ở phía tây và Île Saint-Louis ở phía đông . Từ_tâm này , thành_phố trải rộng ra xung_quanh , nhưng phần diện_tích Paris ở phía bắc - tức hữu_ngạn sông Seine - rộng hơn bên tả_ngạn phía nam rõ_rệt . Cả hai bên sông Seine , một_số vùng_đất tạo bởi đá thạch_cao nhô lên thành những quả đồi nhỏ . Ở hữu_ngạn : đồi Montmartre có độ cao là 131 mét , đỉnh là vị_trí nhà_thờ Saint-Pierre ; Belleville cao 128,5 m tại phố Télégraphe ; Ménilmontant 108 m ; công_viên Buttes-Chaumont 103 m ; Passy 71 m . Bên tả_ngạn : Montparnasse cao 66 m ; Butte aux Cailles 63 m ; đồi Sainte-Geneviève 61 m .",
+        "label": [
+            "ANSWER",
+            32,
+            44
+        ],
+        "question": "Hai nằm giữa Paris trên dòng sông Sen có tên là gì ?"
+    },
+    {
+        "answer": "Île de la Cité ở phía tây và Île Saint-Louis ở phía đông",
+        "context": "Tại trung_tâm của bồn Paris , trên một vùng trầm_tích bằng_phẳng rộng_lớn , Paris nằm hai bên bờ sông Seine . Hai đảo của sông tạo nên trung_tâm lịch_sử của thành_phố : Île de la Cité ở phía tây và Île Saint-Louis ở phía đông . Từ_tâm này , thành_phố trải rộng ra xung_quanh , nhưng phần diện_tích Paris ở phía bắc - tức hữu_ngạn sông Seine - rộng hơn bên tả_ngạn phía nam rõ_rệt . Cả hai bên sông Seine , một_số vùng_đất tạo bởi đá thạch_cao nhô lên thành những quả đồi nhỏ . Ở hữu_ngạn : đồi Montmartre có độ cao là 131 mét , đỉnh là vị_trí nhà_thờ Saint-Pierre ; Belleville cao 128,5 m tại phố Télégraphe ; Ménilmontant 108 m ; công_viên Buttes-Chaumont 103 m ; Passy 71 m . Bên tả_ngạn : Montparnasse cao 66 m ; Butte aux Cailles 63 m ; đồi Sainte-Geneviève 61 m .",
+        "label": [
+            "ANSWER",
+            32,
+            44
+        ],
+        "question": "Hai nằm giữa Paris trên dòng sông Sen có tên là gì ?"
+    },
+    {
+        "answer": "Île de la Cité ở phía tây và Île Saint-Louis ở phía đông",
+        "context": "Tại trung_tâm của bồn Paris , trên một vùng trầm_tích bằng_phẳng rộng_lớn , Paris nằm hai bên bờ sông Seine . Hai đảo của sông tạo nên trung_tâm lịch_sử của thành_phố : Île de la Cité ở phía tây và Île Saint-Louis ở phía đông . Từ_tâm này , thành_phố trải rộng ra xung_quanh , nhưng phần diện_tích Paris ở phía bắc - tức hữu_ngạn sông Seine - rộng hơn bên tả_ngạn phía nam rõ_rệt . Cả hai bên sông Seine , một_số vùng_đất tạo bởi đá thạch_cao nhô lên thành những quả đồi nhỏ . Ở hữu_ngạn : đồi Montmartre có độ cao là 131 mét , đỉnh là vị_trí nhà_thờ Saint-Pierre ; Belleville cao 128,5 m tại phố Télégraphe ; Ménilmontant 108 m ; công_viên Buttes-Chaumont 103 m ; Passy 71 m . Bên tả_ngạn : Montparnasse cao 66 m ; Butte aux Cailles 63 m ; đồi Sainte-Geneviève 61 m .",
+        "label": [
+            "ANSWER",
+            32,
+            44
+        ],
+        "question": "Hai nằm giữa Paris trên dòng sông Sen có tên là gì ?"
+    },
+    {
+        "answer": "Île de la Cité ở phía tây và Île Saint-Louis ở phía đông",
+        "context": "Tại trung_tâm của bồn Paris , trên một vùng trầm_tích bằng_phẳng rộng_lớn , Paris nằm hai bên bờ sông Seine . Hai đảo của sông tạo nên trung_tâm lịch_sử của thành_phố : Île de la Cité ở phía tây và Île Saint-Louis ở phía đông . Từ_tâm này , thành_phố trải rộng ra xung_quanh , nhưng phần diện_tích Paris ở phía bắc - tức hữu_ngạn sông Seine - rộng hơn bên tả_ngạn phía nam rõ_rệt . Cả hai bên sông Seine , một_số vùng_đất tạo bởi đá thạch_cao nhô lên thành những quả đồi nhỏ . Ở hữu_ngạn : đồi Montmartre có độ cao là 131 mét , đỉnh là vị_trí nhà_thờ Saint-Pierre ; Belleville cao 128,5 m tại phố Télégraphe ; Ménilmontant 108 m ; công_viên Buttes-Chaumont 103 m ; Passy 71 m . Bên tả_ngạn : Montparnasse cao 66 m ; Butte aux Cailles 63 m ; đồi Sainte-Geneviève 61 m .",
+        "label": [
+            "ANSWER",
+            32,
+            44
+        ],
+        "question": "Hai nằm giữa Paris trên dòng sông Sen có tên là gì ?"
+    },
+    {
+        "answer": "nhà_thờ Saint-Pierre",
+        "context": "Tại trung_tâm của bồn Paris , trên một vùng trầm_tích bằng_phẳng rộng_lớn , Paris nằm hai bên bờ sông Seine . Hai đảo của sông tạo nên trung_tâm lịch_sử của thành_phố : Île de la Cité ở phía tây và Île Saint-Louis ở phía đông . Từ_tâm này , thành_phố trải rộng ra xung_quanh , nhưng phần diện_tích Paris ở phía bắc - tức hữu_ngạn sông Seine - rộng hơn bên tả_ngạn phía nam rõ_rệt . Cả hai bên sông Seine , một_số vùng_đất tạo bởi đá thạch_cao nhô lên thành những quả đồi nhỏ . Ở hữu_ngạn : đồi Montmartre có độ cao là 131 mét , đỉnh là vị_trí nhà_thờ Saint-Pierre ; Belleville cao 128,5 m tại phố Télégraphe ; Ménilmontant 108 m ; công_viên Buttes-Chaumont 103 m ; Passy 71 m . Bên tả_ngạn : Montparnasse cao 66 m ; Butte aux Cailles 63 m ; đồi Sainte-Geneviève 61 m .",
+        "label": [
+            "ANSWER",
+            111,
+            112
+        ],
+        "question": "Công_trình nào nằm trên đỉnh Montmartre ?"
+    },
+    {
+        "answer": "nhà_thờ Saint-Pierre",
+        "context": "Tại trung_tâm của bồn Paris , trên một vùng trầm_tích bằng_phẳng rộng_lớn , Paris nằm hai bên bờ sông Seine . Hai đảo của sông tạo nên trung_tâm lịch_sử của thành_phố : Île de la Cité ở phía tây và Île Saint-Louis ở phía đông . Từ_tâm này , thành_phố trải rộng ra xung_quanh , nhưng phần diện_tích Paris ở phía bắc - tức hữu_ngạn sông Seine - rộng hơn bên tả_ngạn phía nam rõ_rệt . Cả hai bên sông Seine , một_số vùng_đất tạo bởi đá thạch_cao nhô lên thành những quả đồi nhỏ . Ở hữu_ngạn : đồi Montmartre có độ cao là 131 mét , đỉnh là vị_trí nhà_thờ Saint-Pierre ; Belleville cao 128,5 m tại phố Télégraphe ; Ménilmontant 108 m ; công_viên Buttes-Chaumont 103 m ; Passy 71 m . Bên tả_ngạn : Montparnasse cao 66 m ; Butte aux Cailles 63 m ; đồi Sainte-Geneviève 61 m .",
+        "label": [
+            "ANSWER",
+            111,
+            112
+        ],
+        "question": "Công_trình nào nằm trên đỉnh Montmartre ?"
+    },
+    {
+        "answer": "nhà_thờ Saint-Pierre",
+        "context": "Tại trung_tâm của bồn Paris , trên một vùng trầm_tích bằng_phẳng rộng_lớn , Paris nằm hai bên bờ sông Seine . Hai đảo của sông tạo nên trung_tâm lịch_sử của thành_phố : Île de la Cité ở phía tây và Île Saint-Louis ở phía đông . Từ_tâm này , thành_phố trải rộng ra xung_quanh , nhưng phần diện_tích Paris ở phía bắc - tức hữu_ngạn sông Seine - rộng hơn bên tả_ngạn phía nam rõ_rệt . Cả hai bên sông Seine , một_số vùng_đất tạo bởi đá thạch_cao nhô lên thành những quả đồi nhỏ . Ở hữu_ngạn : đồi Montmartre có độ cao là 131 mét , đỉnh là vị_trí nhà_thờ Saint-Pierre ; Belleville cao 128,5 m tại phố Télégraphe ; Ménilmontant 108 m ; công_viên Buttes-Chaumont 103 m ; Passy 71 m . Bên tả_ngạn : Montparnasse cao 66 m ; Butte aux Cailles 63 m ; đồi Sainte-Geneviève 61 m .",
+        "label": [
+            "ANSWER",
+            111,
+            112
+        ],
+        "question": "Công_trình nào nằm trên đỉnh Montmartre ?"
+    },
+    {
+        "answer": "nhà_thờ Saint-Pierre",
+        "context": "Tại trung_tâm của bồn Paris , trên một vùng trầm_tích bằng_phẳng rộng_lớn , Paris nằm hai bên bờ sông Seine . Hai đảo của sông tạo nên trung_tâm lịch_sử của thành_phố : Île de la Cité ở phía tây và Île Saint-Louis ở phía đông . Từ_tâm này , thành_phố trải rộng ra xung_quanh , nhưng phần diện_tích Paris ở phía bắc - tức hữu_ngạn sông Seine - rộng hơn bên tả_ngạn phía nam rõ_rệt . Cả hai bên sông Seine , một_số vùng_đất tạo bởi đá thạch_cao nhô lên thành những quả đồi nhỏ . Ở hữu_ngạn : đồi Montmartre có độ cao là 131 mét , đỉnh là vị_trí nhà_thờ Saint-Pierre ; Belleville cao 128,5 m tại phố Télégraphe ; Ménilmontant 108 m ; công_viên Buttes-Chaumont 103 m ; Passy 71 m . Bên tả_ngạn : Montparnasse cao 66 m ; Butte aux Cailles 63 m ; đồi Sainte-Geneviève 61 m .",
+        "label": [
+            "ANSWER",
+            111,
+            112
+        ],
+        "question": "Công_trình nào nằm trên đỉnh Montmartre ?"
+    },
+    {
+        "answer": "bức tường thành Thiers",
+        "context": "Vào năm 1844 , nội_ô Paris ( Paris intra-muros ) được giới_hạn bởi bức tường thành Thiers . Tới năm 1860 , một_số hạt và quận xung_quanh được sát_nhập vào thành_phố . Còn ngày_nay , Paris được phân_định với ngoại_ô bằng các đại_lộ vành_đai dài 35 km . Tuy_nhiên có một_vài ngoại_lệ . Quận 15 vượt qua ranh_giới này tới sân_bay trực_thăng Issy-les-Moulineaux. Quận 16 bao_gồm cả rừng Boulogne rộng 846 hecta ở phía tây . Còn rừng Vincennes rộng 995 hecta thuộc Quận 12 ở phía Đông . Tổng_cộng chu_vi của Paris dài tới 54,74 km .",
+        "label": [
+            "ANSWER",
+            13,
+            16
+        ],
+        "question": "Năm 1844 , ngoại_ô và nội_ô Paris được ngăn_cách bằng gì ?"
+    },
+    {
+        "answer": "bức tường thành Thiers",
+        "context": "Vào năm 1844 , nội_ô Paris ( Paris intra-muros ) được giới_hạn bởi bức tường thành Thiers . Tới năm 1860 , một_số hạt và quận xung_quanh được sát_nhập vào thành_phố . Còn ngày_nay , Paris được phân_định với ngoại_ô bằng các đại_lộ vành_đai dài 35 km . Tuy_nhiên có một_vài ngoại_lệ . Quận 15 vượt qua ranh_giới này tới sân_bay trực_thăng Issy-les-Moulineaux. Quận 16 bao_gồm cả rừng Boulogne rộng 846 hecta ở phía tây . Còn rừng Vincennes rộng 995 hecta thuộc Quận 12 ở phía Đông . Tổng_cộng chu_vi của Paris dài tới 54,74 km .",
+        "label": [
+            "ANSWER",
+            13,
+            16
+        ],
+        "question": "Năm 1844 , ngoại_ô và nội_ô Paris được ngăn_cách bằng gì ?"
+    },
+    {
+        "answer": "bức tường thành Thiers",
+        "context": "Vào năm 1844 , nội_ô Paris ( Paris intra-muros ) được giới_hạn bởi bức tường thành Thiers . Tới năm 1860 , một_số hạt và quận xung_quanh được sát_nhập vào thành_phố . Còn ngày_nay , Paris được phân_định với ngoại_ô bằng các đại_lộ vành_đai dài 35 km . Tuy_nhiên có một_vài ngoại_lệ . Quận 15 vượt qua ranh_giới này tới sân_bay trực_thăng Issy-les-Moulineaux. Quận 16 bao_gồm cả rừng Boulogne rộng 846 hecta ở phía tây . Còn rừng Vincennes rộng 995 hecta thuộc Quận 12 ở phía Đông . Tổng_cộng chu_vi của Paris dài tới 54,74 km .",
+        "label": [
+            "ANSWER",
+            13,
+            16
+        ],
+        "question": "Năm 1844 , ngoại_ô và nội_ô Paris được ngăn_cách bằng gì ?"
+    },
+    {
+        "answer": "bức tường thành Thiers",
+        "context": "Vào năm 1844 , nội_ô Paris ( Paris intra-muros ) được giới_hạn bởi bức tường thành Thiers . Tới năm 1860 , một_số hạt và quận xung_quanh được sát_nhập vào thành_phố . Còn ngày_nay , Paris được phân_định với ngoại_ô bằng các đại_lộ vành_đai dài 35 km . Tuy_nhiên có một_vài ngoại_lệ . Quận 15 vượt qua ranh_giới này tới sân_bay trực_thăng Issy-les-Moulineaux. Quận 16 bao_gồm cả rừng Boulogne rộng 846 hecta ở phía tây . Còn rừng Vincennes rộng 995 hecta thuộc Quận 12 ở phía Đông . Tổng_cộng chu_vi của Paris dài tới 54,74 km .",
+        "label": [
+            "ANSWER",
+            13,
+            16
+        ],
+        "question": "Năm 1844 , ngoại_ô và nội_ô Paris được ngăn_cách bằng gì ?"
+    },
+    {
+        "answer": "các đại_lộ vành_đai dài 35 km",
+        "context": "Vào năm 1844 , nội_ô Paris ( Paris intra-muros ) được giới_hạn bởi bức tường thành Thiers . Tới năm 1860 , một_số hạt và quận xung_quanh được sát_nhập vào thành_phố . Còn ngày_nay , Paris được phân_định với ngoại_ô bằng các đại_lộ vành_đai dài 35 km . Tuy_nhiên có một_vài ngoại_lệ . Quận 15 vượt qua ranh_giới này tới sân_bay trực_thăng Issy-les-Moulineaux. Quận 16 bao_gồm cả rừng Boulogne rộng 846 hecta ở phía tây . Còn rừng Vincennes rộng 995 hecta thuộc Quận 12 ở phía Đông . Tổng_cộng chu_vi của Paris dài tới 54,74 km .",
+        "label": [
+            "ANSWER",
+            41,
+            46
+        ],
+        "question": "Ngày_nay , muốn từ nội_ô sang ngoại_ô Paris , ta thường phải băng qua đâu ?"
+    },
+    {
+        "answer": "các đại_lộ vành_đai",
+        "context": "Vào năm 1844 , nội_ô Paris ( Paris intra-muros ) được giới_hạn bởi bức tường thành Thiers . Tới năm 1860 , một_số hạt và quận xung_quanh được sát_nhập vào thành_phố . Còn ngày_nay , Paris được phân_định với ngoại_ô bằng các đại_lộ vành_đai dài 35 km . Tuy_nhiên có một_vài ngoại_lệ . Quận 15 vượt qua ranh_giới này tới sân_bay trực_thăng Issy-les-Moulineaux. Quận 16 bao_gồm cả rừng Boulogne rộng 846 hecta ở phía tây . Còn rừng Vincennes rộng 995 hecta thuộc Quận 12 ở phía Đông . Tổng_cộng chu_vi của Paris dài tới 54,74 km .",
+        "label": [
+            "ANSWER",
+            41,
+            43
+        ],
+        "question": "Ngày_nay , muốn từ nội_ô sang ngoại_ô Paris , ta thường phải băng qua đâu ?"
+    },
+    {
+        "answer": "các đại_lộ vành_đai",
+        "context": "Vào năm 1844 , nội_ô Paris ( Paris intra-muros ) được giới_hạn bởi bức tường thành Thiers . Tới năm 1860 , một_số hạt và quận xung_quanh được sát_nhập vào thành_phố . Còn ngày_nay , Paris được phân_định với ngoại_ô bằng các đại_lộ vành_đai dài 35 km . Tuy_nhiên có một_vài ngoại_lệ . Quận 15 vượt qua ranh_giới này tới sân_bay trực_thăng Issy-les-Moulineaux. Quận 16 bao_gồm cả rừng Boulogne rộng 846 hecta ở phía tây . Còn rừng Vincennes rộng 995 hecta thuộc Quận 12 ở phía Đông . Tổng_cộng chu_vi của Paris dài tới 54,74 km .",
+        "label": [
+            "ANSWER",
+            41,
+            43
+        ],
+        "question": "Ngày_nay , muốn từ nội_ô sang ngoại_ô Paris , ta thường phải băng qua đâu ?"
+    },
+    {
+        "answer": "các đại_lộ vành_đai",
+        "context": "Vào năm 1844 , nội_ô Paris ( Paris intra-muros ) được giới_hạn bởi bức tường thành Thiers . Tới năm 1860 , một_số hạt và quận xung_quanh được sát_nhập vào thành_phố . Còn ngày_nay , Paris được phân_định với ngoại_ô bằng các đại_lộ vành_đai dài 35 km . Tuy_nhiên có một_vài ngoại_lệ . Quận 15 vượt qua ranh_giới này tới sân_bay trực_thăng Issy-les-Moulineaux. Quận 16 bao_gồm cả rừng Boulogne rộng 846 hecta ở phía tây . Còn rừng Vincennes rộng 995 hecta thuộc Quận 12 ở phía Đông . Tổng_cộng chu_vi của Paris dài tới 54,74 km .",
+        "label": [
+            "ANSWER",
+            41,
+            43
+        ],
+        "question": "Ngày_nay , muốn từ nội_ô sang ngoại_ô Paris , ta thường phải băng qua đâu ?"
+    },
+    {
+        "answer": "Quận 12 ở phía Đông",
+        "context": "Vào năm 1844 , nội_ô Paris ( Paris intra-muros ) được giới_hạn bởi bức tường thành Thiers . Tới năm 1860 , một_số hạt và quận xung_quanh được sát_nhập vào thành_phố . Còn ngày_nay , Paris được phân_định với ngoại_ô bằng các đại_lộ vành_đai dài 35 km . Tuy_nhiên có một_vài ngoại_lệ . Quận 15 vượt qua ranh_giới này tới sân_bay trực_thăng Issy-les-Moulineaux. Quận 16 bao_gồm cả rừng Boulogne rộng 846 hecta ở phía tây . Còn rừng Vincennes rộng 995 hecta thuộc Quận 12 ở phía Đông . Tổng_cộng chu_vi của Paris dài tới 54,74 km .",
+        "label": [
+            "ANSWER",
+            83,
+            87
+        ],
+        "question": "Rừng Vincennes nằm ở đâu của Paris ?"
+    },
+    {
+        "answer": "Quận 12 ở phía Đông",
+        "context": "Vào năm 1844 , nội_ô Paris ( Paris intra-muros ) được giới_hạn bởi bức tường thành Thiers . Tới năm 1860 , một_số hạt và quận xung_quanh được sát_nhập vào thành_phố . Còn ngày_nay , Paris được phân_định với ngoại_ô bằng các đại_lộ vành_đai dài 35 km . Tuy_nhiên có một_vài ngoại_lệ . Quận 15 vượt qua ranh_giới này tới sân_bay trực_thăng Issy-les-Moulineaux. Quận 16 bao_gồm cả rừng Boulogne rộng 846 hecta ở phía tây . Còn rừng Vincennes rộng 995 hecta thuộc Quận 12 ở phía Đông . Tổng_cộng chu_vi của Paris dài tới 54,74 km .",
+        "label": [
+            "ANSWER",
+            83,
+            87
+        ],
+        "question": "Rừng Vincennes nằm ở đâu của Paris ?"
+    },
+    {
+        "answer": "Quận 12 ở phía Đông",
+        "context": "Vào năm 1844 , nội_ô Paris ( Paris intra-muros ) được giới_hạn bởi bức tường thành Thiers . Tới năm 1860 , một_số hạt và quận xung_quanh được sát_nhập vào thành_phố . Còn ngày_nay , Paris được phân_định với ngoại_ô bằng các đại_lộ vành_đai dài 35 km . Tuy_nhiên có một_vài ngoại_lệ . Quận 15 vượt qua ranh_giới này tới sân_bay trực_thăng Issy-les-Moulineaux. Quận 16 bao_gồm cả rừng Boulogne rộng 846 hecta ở phía tây . Còn rừng Vincennes rộng 995 hecta thuộc Quận 12 ở phía Đông . Tổng_cộng chu_vi của Paris dài tới 54,74 km .",
+        "label": [
+            "ANSWER",
+            83,
+            87
+        ],
+        "question": "Rừng Vincennes nằm ở đâu của Paris ?"
+    },
+    {
+        "answer": "Quận 12 ở phía Đông",
+        "context": "Vào năm 1844 , nội_ô Paris ( Paris intra-muros ) được giới_hạn bởi bức tường thành Thiers . Tới năm 1860 , một_số hạt và quận xung_quanh được sát_nhập vào thành_phố . Còn ngày_nay , Paris được phân_định với ngoại_ô bằng các đại_lộ vành_đai dài 35 km . Tuy_nhiên có một_vài ngoại_lệ . Quận 15 vượt qua ranh_giới này tới sân_bay trực_thăng Issy-les-Moulineaux. Quận 16 bao_gồm cả rừng Boulogne rộng 846 hecta ở phía tây . Còn rừng Vincennes rộng 995 hecta thuộc Quận 12 ở phía Đông . Tổng_cộng chu_vi của Paris dài tới 54,74 km .",
+        "label": [
+            "ANSWER",
+            83,
+            87
+        ],
+        "question": "Rừng Vincennes nằm ở đâu của Paris ?"
+    },
+    {
+        "answer": "cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier",
+        "context": "Bồn_Paris tạo nên một tập_hợp các lớp trầm_tích kế_tiếp . Đây là một trong những nơi đầu_tiên trở_thành đối_tượng của việc xây_dựng bản_đồ địa_chất và cho_phép tạo ra nhiều lý_thuyết về địa_chất , như cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier . Bồn_Paris được tạo trong khoảng thời_gian 41 ngàn năm . Đây là một bồn thềm_lục_địa trên những khối núi từ thời Đại cổ_sinh như khối núi Vosges , khối núi Massif central , khối núi Armorica . Với sự tạo thành của dãy Alps , bồn Paris bị đóng lại , chỉ còn mở ra phía biển Manche và Đại_Tây_Dương . Nó báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine . Cuối thế Oligocen , bồn Paris trở_thành lục_địa .",
+        "label": [
+            "ANSWER",
+            34,
+            39
+        ],
+        "question": "Bồn_Paris là nơi khởi_nguồn của nhiều thuyết địa_chất nổi_tiếng nào ?"
+    },
+    {
+        "answer": "cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier",
+        "context": "Bồn_Paris tạo nên một tập_hợp các lớp trầm_tích kế_tiếp . Đây là một trong những nơi đầu_tiên trở_thành đối_tượng của việc xây_dựng bản_đồ địa_chất và cho_phép tạo ra nhiều lý_thuyết về địa_chất , như cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier . Bồn_Paris được tạo trong khoảng thời_gian 41 ngàn năm . Đây là một bồn thềm_lục_địa trên những khối núi từ thời Đại cổ_sinh như khối núi Vosges , khối núi Massif central , khối núi Armorica . Với sự tạo thành của dãy Alps , bồn Paris bị đóng lại , chỉ còn mở ra phía biển Manche và Đại_Tây_Dương . Nó báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine . Cuối thế Oligocen , bồn Paris trở_thành lục_địa .",
+        "label": [
+            "ANSWER",
+            34,
+            39
+        ],
+        "question": "Bồn_Paris là nơi khởi_nguồn của nhiều thuyết địa_chất nổi_tiếng nào ?"
+    },
+    {
+        "answer": "cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier",
+        "context": "Bồn_Paris tạo nên một tập_hợp các lớp trầm_tích kế_tiếp . Đây là một trong những nơi đầu_tiên trở_thành đối_tượng của việc xây_dựng bản_đồ địa_chất và cho_phép tạo ra nhiều lý_thuyết về địa_chất , như cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier . Bồn_Paris được tạo trong khoảng thời_gian 41 ngàn năm . Đây là một bồn thềm_lục_địa trên những khối núi từ thời Đại cổ_sinh như khối núi Vosges , khối núi Massif central , khối núi Armorica . Với sự tạo thành của dãy Alps , bồn Paris bị đóng lại , chỉ còn mở ra phía biển Manche và Đại_Tây_Dương . Nó báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine . Cuối thế Oligocen , bồn Paris trở_thành lục_địa .",
+        "label": [
+            "ANSWER",
+            34,
+            39
+        ],
+        "question": "Bồn_Paris là nơi khởi_nguồn của nhiều thuyết địa_chất nổi_tiếng nào ?"
+    },
+    {
+        "answer": "cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier",
+        "context": "Bồn_Paris tạo nên một tập_hợp các lớp trầm_tích kế_tiếp . Đây là một trong những nơi đầu_tiên trở_thành đối_tượng của việc xây_dựng bản_đồ địa_chất và cho_phép tạo ra nhiều lý_thuyết về địa_chất , như cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier . Bồn_Paris được tạo trong khoảng thời_gian 41 ngàn năm . Đây là một bồn thềm_lục_địa trên những khối núi từ thời Đại cổ_sinh như khối núi Vosges , khối núi Massif central , khối núi Armorica . Với sự tạo thành của dãy Alps , bồn Paris bị đóng lại , chỉ còn mở ra phía biển Manche và Đại_Tây_Dương . Nó báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine . Cuối thế Oligocen , bồn Paris trở_thành lục_địa .",
+        "label": [
+            "ANSWER",
+            34,
+            39
+        ],
+        "question": "Bồn_Paris là nơi khởi_nguồn của nhiều thuyết địa_chất nổi_tiếng nào ?"
+    },
+    {
+        "answer": "Bồn_Paris",
+        "context": "Bồn_Paris tạo nên một tập_hợp các lớp trầm_tích kế_tiếp . Đây là một trong những nơi đầu_tiên trở_thành đối_tượng của việc xây_dựng bản_đồ địa_chất và cho_phép tạo ra nhiều lý_thuyết về địa_chất , như cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier . Bồn_Paris được tạo trong khoảng thời_gian 41 ngàn năm . Đây là một bồn thềm_lục_địa trên những khối núi từ thời Đại cổ_sinh như khối núi Vosges , khối núi Massif central , khối núi Armorica . Với sự tạo thành của dãy Alps , bồn Paris bị đóng lại , chỉ còn mở ra phía biển Manche và Đại_Tây_Dương . Nó báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine . Cuối thế Oligocen , bồn Paris trở_thành lục_địa .",
+        "label": [
+            "ANSWER",
+            0,
+            0
+        ],
+        "question": "Bản_đồ địa_chất được bắt_đầu vẽ ở đâu ?"
+    },
+    {
+        "answer": "Bồn_Paris",
+        "context": "Bồn_Paris tạo nên một tập_hợp các lớp trầm_tích kế_tiếp . Đây là một trong những nơi đầu_tiên trở_thành đối_tượng của việc xây_dựng bản_đồ địa_chất và cho_phép tạo ra nhiều lý_thuyết về địa_chất , như cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier . Bồn_Paris được tạo trong khoảng thời_gian 41 ngàn năm . Đây là một bồn thềm_lục_địa trên những khối núi từ thời Đại cổ_sinh như khối núi Vosges , khối núi Massif central , khối núi Armorica . Với sự tạo thành của dãy Alps , bồn Paris bị đóng lại , chỉ còn mở ra phía biển Manche và Đại_Tây_Dương . Nó báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine . Cuối thế Oligocen , bồn Paris trở_thành lục_địa .",
+        "label": [
+            "ANSWER",
+            0,
+            0
+        ],
+        "question": "Bản_đồ địa_chất được bắt_đầu vẽ ở đâu ?"
+    },
+    {
+        "answer": "Bồn_Paris",
+        "context": "Bồn_Paris tạo nên một tập_hợp các lớp trầm_tích kế_tiếp . Đây là một trong những nơi đầu_tiên trở_thành đối_tượng của việc xây_dựng bản_đồ địa_chất và cho_phép tạo ra nhiều lý_thuyết về địa_chất , như cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier . Bồn_Paris được tạo trong khoảng thời_gian 41 ngàn năm . Đây là một bồn thềm_lục_địa trên những khối núi từ thời Đại cổ_sinh như khối núi Vosges , khối núi Massif central , khối núi Armorica . Với sự tạo thành của dãy Alps , bồn Paris bị đóng lại , chỉ còn mở ra phía biển Manche và Đại_Tây_Dương . Nó báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine . Cuối thế Oligocen , bồn Paris trở_thành lục_địa .",
+        "label": [
+            "ANSWER",
+            0,
+            0
+        ],
+        "question": "Bản_đồ địa_chất được bắt_đầu vẽ ở đâu ?"
+    },
+    {
+        "answer": "Bồn_Paris",
+        "context": "Bồn_Paris tạo nên một tập_hợp các lớp trầm_tích kế_tiếp . Đây là một trong những nơi đầu_tiên trở_thành đối_tượng của việc xây_dựng bản_đồ địa_chất và cho_phép tạo ra nhiều lý_thuyết về địa_chất , như cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier . Bồn_Paris được tạo trong khoảng thời_gian 41 ngàn năm . Đây là một bồn thềm_lục_địa trên những khối núi từ thời Đại cổ_sinh như khối núi Vosges , khối núi Massif central , khối núi Armorica . Với sự tạo thành của dãy Alps , bồn Paris bị đóng lại , chỉ còn mở ra phía biển Manche và Đại_Tây_Dương . Nó báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine . Cuối thế Oligocen , bồn Paris trở_thành lục_địa .",
+        "label": [
+            "ANSWER",
+            0,
+            0
+        ],
+        "question": "Bản_đồ địa_chất được bắt_đầu vẽ ở đâu ?"
+    },
+    {
+        "answer": "khối núi Vosges , khối núi Massif central , khối núi Armorica",
+        "context": "Bồn_Paris tạo nên một tập_hợp các lớp trầm_tích kế_tiếp . Đây là một trong những nơi đầu_tiên trở_thành đối_tượng của việc xây_dựng bản_đồ địa_chất và cho_phép tạo ra nhiều lý_thuyết về địa_chất , như cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier . Bồn_Paris được tạo trong khoảng thời_gian 41 ngàn năm . Đây là một bồn thềm_lục_địa trên những khối núi từ thời Đại cổ_sinh như khối núi Vosges , khối núi Massif central , khối núi Armorica . Với sự tạo thành của dãy Alps , bồn Paris bị đóng lại , chỉ còn mở ra phía biển Manche và Đại_Tây_Dương . Nó báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine . Cuối thế Oligocen , bồn Paris trở_thành lục_địa .",
+        "label": [
+            "ANSWER",
+            65,
+            76
+        ],
+        "question": "Bồn_Paris nằm trên bồn những núi nào từ thời Paleozoic ?"
+    },
+    {
+        "answer": "khối núi Vosges , khối núi Massif central , khối núi Armorica",
+        "context": "Bồn_Paris tạo nên một tập_hợp các lớp trầm_tích kế_tiếp . Đây là một trong những nơi đầu_tiên trở_thành đối_tượng của việc xây_dựng bản_đồ địa_chất và cho_phép tạo ra nhiều lý_thuyết về địa_chất , như cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier . Bồn_Paris được tạo trong khoảng thời_gian 41 ngàn năm . Đây là một bồn thềm_lục_địa trên những khối núi từ thời Đại cổ_sinh như khối núi Vosges , khối núi Massif central , khối núi Armorica . Với sự tạo thành của dãy Alps , bồn Paris bị đóng lại , chỉ còn mở ra phía biển Manche và Đại_Tây_Dương . Nó báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine . Cuối thế Oligocen , bồn Paris trở_thành lục_địa .",
+        "label": [
+            "ANSWER",
+            65,
+            76
+        ],
+        "question": "Bồn_Paris nằm trên bồn những núi nào từ thời Paleozoic ?"
+    },
+    {
+        "answer": "khối núi Vosges , khối núi Massif central , khối núi Armorica",
+        "context": "Bồn_Paris tạo nên một tập_hợp các lớp trầm_tích kế_tiếp . Đây là một trong những nơi đầu_tiên trở_thành đối_tượng của việc xây_dựng bản_đồ địa_chất và cho_phép tạo ra nhiều lý_thuyết về địa_chất , như cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier . Bồn_Paris được tạo trong khoảng thời_gian 41 ngàn năm . Đây là một bồn thềm_lục_địa trên những khối núi từ thời Đại cổ_sinh như khối núi Vosges , khối núi Massif central , khối núi Armorica . Với sự tạo thành của dãy Alps , bồn Paris bị đóng lại , chỉ còn mở ra phía biển Manche và Đại_Tây_Dương . Nó báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine . Cuối thế Oligocen , bồn Paris trở_thành lục_địa .",
+        "label": [
+            "ANSWER",
+            65,
+            76
+        ],
+        "question": "Bồn_Paris nằm trên bồn những núi nào từ thời Paleozoic ?"
+    },
+    {
+        "answer": "khối núi Vosges , khối núi Massif central , khối núi Armorica",
+        "context": "Bồn_Paris tạo nên một tập_hợp các lớp trầm_tích kế_tiếp . Đây là một trong những nơi đầu_tiên trở_thành đối_tượng của việc xây_dựng bản_đồ địa_chất và cho_phép tạo ra nhiều lý_thuyết về địa_chất , như cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier . Bồn_Paris được tạo trong khoảng thời_gian 41 ngàn năm . Đây là một bồn thềm_lục_địa trên những khối núi từ thời Đại cổ_sinh như khối núi Vosges , khối núi Massif central , khối núi Armorica . Với sự tạo thành của dãy Alps , bồn Paris bị đóng lại , chỉ còn mở ra phía biển Manche và Đại_Tây_Dương . Nó báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine . Cuối thế Oligocen , bồn Paris trở_thành lục_địa .",
+        "label": [
+            "ANSWER",
+            65,
+            76
+        ],
+        "question": "Bồn_Paris nằm trên bồn những núi nào từ thời Paleozoic ?"
+    },
+    {
+        "answer": "sự tạo thành của dãy Alps",
+        "context": "Bồn_Paris tạo nên một tập_hợp các lớp trầm_tích kế_tiếp . Đây là một trong những nơi đầu_tiên trở_thành đối_tượng của việc xây_dựng bản_đồ địa_chất và cho_phép tạo ra nhiều lý_thuyết về địa_chất , như cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier . Bồn_Paris được tạo trong khoảng thời_gian 41 ngàn năm . Đây là một bồn thềm_lục_địa trên những khối núi từ thời Đại cổ_sinh như khối núi Vosges , khối núi Massif central , khối núi Armorica . Với sự tạo thành của dãy Alps , bồn Paris bị đóng lại , chỉ còn mở ra phía biển Manche và Đại_Tây_Dương . Nó báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine . Cuối thế Oligocen , bồn Paris trở_thành lục_địa .",
+        "label": [
+            "ANSWER",
+            79,
+            84
+        ],
+        "question": "Vì sao các cửa bồn Paris bị khoá lại ?"
+    },
+    {
+        "answer": "báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine",
+        "context": "Bồn_Paris tạo nên một tập_hợp các lớp trầm_tích kế_tiếp . Đây là một trong những nơi đầu_tiên trở_thành đối_tượng của việc xây_dựng bản_đồ địa_chất và cho_phép tạo ra nhiều lý_thuyết về địa_chất , như cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier . Bồn_Paris được tạo trong khoảng thời_gian 41 ngàn năm . Đây là một bồn thềm_lục_địa trên những khối núi từ thời Đại cổ_sinh như khối núi Vosges , khối núi Massif central , khối núi Armorica . Với sự tạo thành của dãy Alps , bồn Paris bị đóng lại , chỉ còn mở ra phía biển Manche và Đại_Tây_Dương . Nó báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine . Cuối thế Oligocen , bồn Paris trở_thành lục_địa .",
+        "label": [
+            "ANSWER",
+            103,
+            113
+        ],
+        "question": "Vì sao các cửa bồn Paris bị khoá lại ?"
+    },
+    {
+        "answer": "báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine",
+        "context": "Bồn_Paris tạo nên một tập_hợp các lớp trầm_tích kế_tiếp . Đây là một trong những nơi đầu_tiên trở_thành đối_tượng của việc xây_dựng bản_đồ địa_chất và cho_phép tạo ra nhiều lý_thuyết về địa_chất , như cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier . Bồn_Paris được tạo trong khoảng thời_gian 41 ngàn năm . Đây là một bồn thềm_lục_địa trên những khối núi từ thời Đại cổ_sinh như khối núi Vosges , khối núi Massif central , khối núi Armorica . Với sự tạo thành của dãy Alps , bồn Paris bị đóng lại , chỉ còn mở ra phía biển Manche và Đại_Tây_Dương . Nó báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine . Cuối thế Oligocen , bồn Paris trở_thành lục_địa .",
+        "label": [
+            "ANSWER",
+            103,
+            113
+        ],
+        "question": "Vì sao các cửa bồn Paris bị khoá lại ?"
+    },
+    {
+        "answer": "báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine",
+        "context": "Bồn_Paris tạo nên một tập_hợp các lớp trầm_tích kế_tiếp . Đây là một trong những nơi đầu_tiên trở_thành đối_tượng của việc xây_dựng bản_đồ địa_chất và cho_phép tạo ra nhiều lý_thuyết về địa_chất , như cổ_sinh_vật_học và giải_phẫu so_sánh của Georges_Cuvier . Bồn_Paris được tạo trong khoảng thời_gian 41 ngàn năm . Đây là một bồn thềm_lục_địa trên những khối núi từ thời Đại cổ_sinh như khối núi Vosges , khối núi Massif central , khối núi Armorica . Với sự tạo thành của dãy Alps , bồn Paris bị đóng lại , chỉ còn mở ra phía biển Manche và Đại_Tây_Dương . Nó báo trước cho sự hình_thành lưu_vực sông Loire và sông Seine . Cuối thế Oligocen , bồn Paris trở_thành lục_địa .",
+        "label": [
+            "ANSWER",
+            103,
+            113
+        ],
+        "question": "Vì sao các cửa bồn Paris bị khoá lại ?"
+    }
+]
