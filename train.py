@@ -9,16 +9,19 @@ def train(args):
     train_dataset = MyDataSet(path=args.train_path, char_vocab_path=args.char_vocab_path,
                               tokenizer=tokenizer, label_set_path=args.label_set_path,
                               max_char_len=args.max_char_len,
-                              max_seq_length=args.max_seq_length)
+                              max_seq_length=args.max_seq_length,
+                              max_ctx_length=args.max_ctx_length)
     dev_dataset = MyDataSet(path=args.dev_path, char_vocab_path=args.char_vocab_path,
                             tokenizer=tokenizer, label_set_path=args.label_set_path,
                             max_char_len=args.max_char_len,
-                            max_seq_length=args.max_seq_length)
+                            max_seq_length=args.max_seq_length,
+                            max_ctx_length=args.max_ctx_length)
 
     test_dataset = MyDataSet(path=args.test_path, char_vocab_path=args.char_vocab_path,
                              tokenizer=tokenizer, label_set_path=args.label_set_path,
                              max_char_len=args.max_char_len,
-                             max_seq_length=args.max_seq_length)
+                             max_seq_length=args.max_seq_length,
+                             max_ctx_length=args.max_ctx_length)
 
     trainer = Trainer(args=args, train_dataset=train_dataset,
                       dev_dataset=dev_dataset, test_dataset=test_dataset)
@@ -44,6 +47,7 @@ if __name__ == '__main__':
     parser.add_argument('--label_set_path', type=str)
     parser.add_argument('--max_char_len', default=10, type=int)
     parser.add_argument('--max_seq_length', default=200, type=int)
+    parser.add_argument('--max_ctx_length', default=50, type=int)
     parser.add_argument('--batch_size', default=32, type=int)
 
     # model

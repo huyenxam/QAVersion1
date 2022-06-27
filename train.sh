@@ -6,6 +6,7 @@ export CHAR_VOCAB_PATH="data/charindex.json"
 export LABEL_SET_PATH="data/label_set.txt"
 export MAX_CHAR_LEN=20
 export MAX_SEQ_LENGTH=100
+export MAX_CTX_LENGTH=50
 export BATCH_SIZE=32
 export CHAR_EMBEDDING_DIM=100
 export CHAR_HIDDEN_DIM=200
@@ -27,6 +28,7 @@ python train.py --train_path $TRAIN_PATH \
                 --max_char_len $MAX_CHAR_LEN  \
                 --dev_path $DEV_PATH \
                 --max_seq_length $MAX_SEQ_LENGTH \
+                --max_ctx_length $MAX_CTX_LENGTH \
                 --batch_size $BATCH_SIZE \
                 --char_embedding_dim $CHAR_EMBEDDING_DIM \
                 --char_hidden_dim $CHAR_HIDDEN_DIM \
