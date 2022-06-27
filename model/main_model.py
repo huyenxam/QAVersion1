@@ -23,14 +23,11 @@ class BiaffineNER(nn.Module):
 
     def forward(self, input_ids=None, char_ids=None,  first_subword=None, attention_mask=None):
 
-        word_reps = self.word_rep(input_ids=input_ids, attention_mask=attention_mask,
+        x = self.word_rep(input_ids=input_ids, attention_mask=attention_mask,
                                       first_subword=first_subword,
                                       char_ids=char_ids)
-        scores = []
-        for x in word_reps:
-            x, _ = self.bilstm(x)
-            start = self.feedStart(x)
-            end = self.feedEnd(x)
-            score = self.biaffine(start, end)
-            scores.append(score)
-        return scores
+        x, _ = self.bilstm(x)
+        start = self.feedStart(x)
+        end = self.feedEnd(x)
+        score = self.biaffine(start, end)
+        return score

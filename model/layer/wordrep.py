@@ -26,15 +26,10 @@ class WordRep(nn.Module):
             bert_features.append(ber_emb)
         bert_features = torch.cat(bert_features, dim=-1)
 
-        word_reps = []
-        for fs in first_subword:
-            bert_features = torch.cat([torch.index_select(bert_features[i], 0, fs[i]).unsqueeze(0) for i in range(bert_features.size(0))], dim=0)
+        bert_features = torch.cat([torch.index_select(bert_features[i], 0, first_subword[i]).unsqueeze(0) for i in range(bert_features.size(0))], dim=0)
         
-            if self.use_char:
-                char_features = self.char_feature(char_ids)
-                bert_features = torch.cat((bert_features,  char_features), dim=-1)
-            word_reps.append(bert_features)
-        return word_reps
-        #     return torch.cat((bert_features,  char_features), dim=-1)
-        # else:
-        #     return bert_features
+        if self.use_char:
+            char_features = self.char_feature(char_ids)
+            return torch.cat((bert_features,  char_features), dim=-1)
+        else:
+            return bert_features

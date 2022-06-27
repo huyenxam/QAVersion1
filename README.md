@@ -39,6 +39,3 @@ bash train.sh
 - [Huggingface Transformers](https://github.com/huggingface/transformers)
 
 # QA-Biaffine
-# QuestionContextVersion2
-# QAVersion1
-# QAVersion1

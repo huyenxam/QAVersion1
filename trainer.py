@@ -1,4 +1,3 @@
-import enum
 from metrics.batch_computeF1 import *
 from metrics.evaluate import *
 import torch
@@ -19,8 +18,7 @@ def get_pred_entity(cate_pred, span_scores,label_set, is_flat_ner= True):
                 top_span.append(tmp)
     top_span = sorted(top_span, reverse=True, key=lambda x: x[3])
     if not top_span:
-        top_span = [('ANSWER', 0, 0)]
-
+        return ['ANSWER', 0, 0, 0]
     return top_span[0]
 
 class Trainer(object):
@@ -83,35 +81,35 @@ class Trainer(object):
                 seq_length = batch[3]
                 self.model.zero_grad()
 
-                outputs = self.model(**inputs)
-                
-                for out in outputs:
-                    for score in out:
-                        optimizer.zero_grad()
-                        mask = get_mask(max_length=self.args.max_seq_length, seq_length=seq_length)
-                        mask = mask.to(self.device)
-                        tmp_out, tmp_label = get_useful_ones(score, label, mask)
+                output = self.model(**inputs)
 
-                        loss = loss_func(tmp_out, tmp_label)
-                        # print(loss)
-                        loss.backward()
-                        optimizer.step()
-                        train_loss += loss.item()
+                optimizer.zero_grad()
+                mask = get_mask(max_length=self.args.max_seq_length, seq_length=seq_length)
+                mask = mask.to(self.device)
+                tmp_out, tmp_label = get_useful_ones(output, label, mask)
 
-                        # norm gradient
-                        torch.nn.utils.clip_grad_norm_(parameters=self.model.parameters(),
-                                                    max_norm=self.args.max_grad_norm)
+                loss = loss_func(tmp_out, tmp_label)
+                # print(loss)
+                loss.backward()
+                optimizer.step()
+                train_loss += loss.item()
 
-                        # update learning rate
-                        scheduler.step()
+                # norm gradient
+                torch.nn.utils.clip_grad_norm_(parameters=self.model.parameters(),
+                                               max_norm=self.args.max_grad_norm)
+
+                # update learning rate
+                scheduler.step()
             print('train loss:', train_loss / len(train_dataloader))
             self.eval('dev')
 
     def eval(self, mode):
         if mode == 'dev':
             dataset = self.dev_dataset
+            path = self.args.dev_path
         elif mode == 'test':
             dataset = self.test_dataset
+            path = self.args.test_path
         else:
             raise Exception("Only dev and test dataset available")
 
@@ -122,7 +120,7 @@ class Trainer(object):
         self.model.eval()
         loss_func = torch.nn.CrossEntropyLoss(reduction='mean')
         eval_loss = 0
-        labels, label_preds, seq_lengths = [], [], []
+        labels, outputs, seq_lengths = [], [], []
         for batch in eval_dataloader:
             batch = tuple(t.to(self.device) for t in batch)
 
@@ -134,28 +132,22 @@ class Trainer(object):
             label = batch[-1]
             seq_length = batch[3]
             with torch.no_grad():
-                outputs = self.model(**inputs)
-            for i, out in enumerate(outputs):
-                label_pred = []
-                for score in out:
-                    input_tensor, cate_pred = score.max(dim=-1)
-                    label_pred.extend(get_pred_entity(cate_pred, input_tensor, self.label_set, True))
-                label_pred = sorted(label_pred, reverse=True, key=lambda x: x[3])
-                if not label_pred:
-                    label_pred = [('ANSWER', 0, 0)] 
-                else:
-                    label_pred = label_pred[0]
-                label_preds.append(label_pred)
+                output = self.model(**inputs)
+                for i in range(len(output)):
+                    input_tensor, cate_pred = output[i].max(dim=-1)
+                    label_pred = get_pred_entity(cate_pred, input_tensor, self.label_set, True)
+                    # print(label_pred)
+                    outputs.append(label_pred)
 
-                seq_lengths.append(seq_length)
-                mask = get_mask(max_length=self.args.max_seq_length, seq_length=seq_length)
-                mask = mask.to(self.device)
+            seq_lengths.append(seq_length)
+            mask = get_mask(max_length=self.args.max_seq_length, seq_length=seq_length)
+            mask = mask.to(self.device)
 
-                tmp_out, tmp_label = get_useful_ones(score, label, mask)
-                loss = loss_func(tmp_out, tmp_label)
-                eval_loss += loss.item()
+            tmp_out, tmp_label = get_useful_ones(output, label, mask)
+            loss = loss_func(tmp_out, tmp_label)
+            eval_loss += loss.item()
 
-        exact_match, f1 = evaluate(label_preds, mode)
+        exact_match, f1 = evaluate(outputs, self.args.max_char_len, self.args.max_seq_length, path)
 
         print()
         print(exact_match)

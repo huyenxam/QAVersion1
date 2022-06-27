@@ -1,4 +1,3 @@
-from msilib import sequence
 import torch
 import json
 import numpy as np
@@ -6,14 +5,15 @@ from torch.utils.data import Dataset
 
 
 class InputSample(object):
-    def __init__(self, path, max_char_len=None, max_seq_length=None, stride=None):
-        self.stride = stride
+    def __init__(self, path, max_char_len=None, max_seq_length=None, max_ctx_length=None):
         self.max_char_len = max_char_len
         self.max_seq_length = max_seq_length
+        self.max_ctx_length = max_ctx_length
         self.list_sample = []
         with open(path, 'r', encoding='utf8') as f:
             self.list_sample = json.load(f)
-
+        # self.list_sample = self.list_sample[:10]
+        
     def get_character(self, word, max_char_len):
         word_seq = []
         for j in range(max_char_len):
@@ -27,42 +27,59 @@ class InputSample(object):
     def get_sample(self):
         l_sample = []
         for i, sample in enumerate(self.list_sample):
+            text_question = sample['question'].split(' ')
+            
             context = sample['context']
-            question = sample['question'].split(' ')
-            sample['question'] = question
-
             text_context = ""
             for item in context:
-                text_context += " ".join(item) + " "
-            text_context = text_context[:-1]
+              text_context += " ".join(item) + " "
+            text_context = text_context[:-1].split(' ')
 
-            sent = question + text_context
-            sample['context'] = text_context
-
+            sent = text_question + text_context
             char_seq = []
             for word in sent:
                 character = self.get_character(word, self.max_char_len)
                 char_seq.append(character)
-            sample['char_sequence'] = char_seq
+            
+            label = sample['label'][0]
+            entity = label[0]
+            start = int(label[1])
+            end = int(label[2])
+            ans_list = []
+            for lb in sample['label']:
+                s = int(lb[1])
+                e = int(lb[2])
+                ans_list.append(" ".join(text_context[s:e+1]))
 
             len_ctx = 0
-            sequence_idxs = []
             for ctx in context:
-                if (len(ctx) + len_ctx) < (self.max_seq_length - len(question) - 2):
-                    sequence_idxs.append([len_ctx, (len(ctx) + len_ctx -1)])
+                if len(ctx) + len_ctx > self.max_seq_length:
+                    qa_dict = {}
+                    label_list = []
+                    length_ctx = self.max_ctx_length - len(text_question) - 2
+                    if len(ctx) > length_ctx:
+                        ctx = ctx[:length_ctx]
+                    
+                    start_ctx = 0
+                    end_ctx = 0
+                    if start >= len_ctx and end <= (len_ctx + len(ctx) -1):
+                        start_ctx = start - len_ctx + len(text_question) + 2
+                        end_ctx = end - len_ctx + len(text_question) + 2
+                        if end_ctx > self.max_ctx_length:
+                            end_ctx = self.max_ctx_length - 1
+
+                        label_list.append([entity, start_ctx, end_ctx])
+                    
+                    qa_dict['context'] = text_context
+                    qa_dict['sequence'] = context
+                    qa_dict['char_sequence'] = char_seq
+                    qa_dict['answer'] = ans_list
+                    qa_dict['sample'] = i
+                    qa_dict['question'] = text_question
+                    qa_dict['label_idx'] = label_list
+                    qa_dict['sequence_idx'] = [len_ctx, len_ctx + len(ctx) - 1]
+                    l_sample.append(qa_dict)
                 len_ctx = len_ctx + len(ctx)
-            
-            sample['sequence_idxs'] = sequence_idxs
-            label = sample['label']
-            label_idxs = []
-            if sent < self.max_seq_length:
-                for lb in label:
-                    ans_start = int(lb[1]) + len(question) + 2
-                    ans_end = int(lb[2]) + len(question) + 2
-                    entity = lb[0]
-                    label_idxs.append([entity, ans_start, ans_end])
-                sample['label_idx'] = label_idxs
-                l_sample.append(sample)
 
         return l_sample
 
@@ -70,12 +87,13 @@ class InputSample(object):
 class MyDataSet(Dataset):
 
     def __init__(self, path, char_vocab_path, label_set_path,
-                 max_char_len, tokenizer, max_seq_length, stride):
+                 max_char_len, tokenizer, max_seq_length, max_ctx_length):
 
-        self.samples = InputSample(path=path, max_char_len=max_char_len, max_seq_length=max_seq_length, stride=stride).get_sample()
+        self.samples = InputSample(path=path, max_char_len=max_char_len, max_seq_length=max_seq_length, max_ctx_length=max_ctx_length).get_sample()
         self.tokenizer = tokenizer
         self.max_seq_length = max_seq_length
         self.max_char_len = max_char_len
+        self.max_ctx_length = max_ctx_length
         with open(label_set_path, 'r', encoding='utf8') as f:
             self.label_set = f.read().splitlines()
 
@@ -83,40 +101,37 @@ class MyDataSet(Dataset):
             self.char_vocab = json.load(f)
         self.label_2int = {w: i for i, w in enumerate(self.label_set)}
 
-    def preprocess(self, tokenizer, context, question, sequece_idxs, max_seq_length, mask_padding_with_zero=True):
-        firstSWindices = []
+    def preprocess(self, tokenizer, context, question, sequence_idx, max_seq_length, max_ctx_length, mask_padding_with_zero=True):
+        firstSWindices = [0]
         input_ids = [tokenizer.cls_token_id]
-        for i in range(len(firstSWindices)):
-            firstSWindices[i].append(len(input_ids))
+        firstSWindices.append(len(input_ids))
 
         for w in question:
             word_token = tokenizer.encode(w)
             input_ids += word_token[1: (len(word_token) - 1)]
-            for i in range(len(firstSWindices)):
-                firstSWindices[i].append(len(input_ids))
+            firstSWindices.append(len(input_ids))
         
         input_ids.append(tokenizer.sep_token_id)
-        for i in range(len(firstSWindices)):
-            firstSWindices[i].append(len(input_ids))
+        firstSWindices.append(len(input_ids))
 
+        start = sequence_idx[0]
+        end = sequence_idx[1]
         for i, w in enumerate(context):
             word_token = tokenizer.encode(w)
             input_ids += word_token[1: (len(word_token) - 1)]
-            for j in range(len(firstSWindices)):
-                if i >= sequece_idxs[j][0] and i <= sequece_idxs[j][1]:
-                    if len(input_ids) >= max_seq_length:
-                        firstSWindices[j].append(0)
-                    else:
-                        firstSWindices[j].append(len(input_ids))
+            if start <= i and i <= end:
+                if len(input_ids) >= max_seq_length:
+                    firstSWindices.append(0)
+                else:
+                    firstSWindices.append(len(input_ids))
 
         input_ids.append(tokenizer.sep_token_id)
         attention_mask = [1 if mask_padding_with_zero else 0] * len(input_ids)
 
-        for i in range(len(firstSWindices)):
-            if len(firstSWindices[i]) > max_seq_length:
-                firstSWindices[i] = firstSWindices[i][:max_seq_length]
-            else:
-                firstSWindices[i] = firstSWindices[i] + [0] * (max_seq_length - len(firstSWindices[i]))
+        if len(firstSWindices) > max_ctx_length:
+            firstSWindices = firstSWindices[:max_ctx_length]
+        else:
+            firstSWindices = firstSWindices + [0] * (max_ctx_length - len(firstSWindices))
 
         if len(input_ids) > max_seq_length:
             input_ids = input_ids[:max_seq_length]
@@ -145,6 +160,8 @@ class MyDataSet(Dataset):
             char_ids.append(word_char_ids)
         if len(char_ids) < max_seq_length:
             char_ids += [[self.char_vocab['PAD']] * self.max_char_len] * (max_seq_length - len(char_ids))
+        else:
+            char_ids = char_ids[:max_seq_length]
         return torch.tensor(char_ids)
 
     def span_maxtrix_label(self, label):
@@ -173,10 +190,10 @@ class MyDataSet(Dataset):
         context = sample['context']
         question = sample['question']
         char_seq = sample['char_sequence']
-        sequece_idxs = sample['sequece_idxs']
         seq_length = len(question) + len(context) + 2        
         label = sample['label_idx']
-        input_ids, attention_mask, firstSWindices = self.preprocess(self.tokenizer, context, question, sequece_idxs, self.max_seq_length)
+        sequence_idx = sample['sequence_idx']
+        input_ids, attention_mask, firstSWindices = self.preprocess(self.tokenizer, context, question, sequence_idx, self.max_seq_length, self.max_ctx_length)
 
         char_ids = self.character2id(char_seq, max_seq_length=self.max_seq_length)
         if seq_length > self.max_seq_length:
