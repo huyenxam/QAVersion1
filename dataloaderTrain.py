@@ -81,17 +81,17 @@ class InputSampleTrain(object):
                 if idx == (len(context) - 1):
                     # l_sample.append(list_context[idx - 3]) 
                     # l_sample.append(list_context[idx - 2]) 
-                    l_sample.append(list_context[idx - 1]) 
+                    # l_sample.append(list_context[idx - 1]) 
                     l_sample.append(list_context[idx]) 
                 elif idx == 0:
                     # l_sample.append(list_context[idx + 3]) 
                     # l_sample.append(list_context[idx + 2]) 
-                    l_sample.append(list_context[idx + 1]) 
+                    # l_sample.append(list_context[idx + 1]) 
                     l_sample.append(list_context[idx])
                 else:
                     # l_sample.append(list_context[idx - 1]) 
                     l_sample.append(list_context[idx]) 
-                    l_sample.append(list_context[idx + 1]) 
+                    # l_sample.append(list_context[idx + 1]) 
                     # l_sample.append(list_context[idx + 2])
             except:
                 l_sample.append(list_context[idx]) 
