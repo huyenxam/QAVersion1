@@ -1,3 +1,4 @@
+from operator import le
 import torch
 import json
 import numpy as np
@@ -35,51 +36,45 @@ class InputSample(object):
               text_context += " ".join(item) + " "
             text_context = text_context[:-1].split(' ')
 
+            length_ctx = self.max_seq_length - len(text_question) - 2
+            if len(text_context) > length_ctx:
+                text_context = text_context[:length_ctx]
+
             sent = text_question + text_context
             char_seq = []
             for word in sent:
                 character = self.get_character(word, self.max_char_len)
                 char_seq.append(character)
-            
-            label = sample['label'][0]
-            entity = label[0]
-            start = int(label[1])
-            end = int(label[2])
-            ans_list = []
-            for lb in sample['label']:
-                s = int(lb[1])
-                e = int(lb[2])
-                ans_list.append(" ".join(text_context[s:e+1]))
 
             len_ctx = 0
             for ctx in context:
-                if len(ctx) + len_ctx > self.max_seq_length:
+                if (len_ctx + len(ctx)) < self.max_seq_length:
                     qa_dict = {}
-                    label_list = []
-                    length_ctx = self.max_ctx_length - len(text_question) - 2
-                    if len(ctx) > length_ctx:
-                        ctx = ctx[:length_ctx]
-                    
-                    start_ctx = 0
-                    end_ctx = 0
-                    if start >= len_ctx and end <= (len_ctx + len(ctx) -1):
-                        start_ctx = start - len_ctx + len(text_question) + 2
-                        end_ctx = end - len_ctx + len(text_question) + 2
-                        if end_ctx > self.max_ctx_length:
-                            end_ctx = self.max_ctx_length - 1
-
-                        label_list.append([entity, start_ctx, end_ctx])
-                    
-                    qa_dict['context'] = text_context
-                    qa_dict['sequence'] = context
-                    qa_dict['char_sequence'] = char_seq
-                    qa_dict['answer'] = ans_list
-                    qa_dict['sample'] = i
                     qa_dict['question'] = text_question
+                    qa_dict['context'] = text_context
+                    qa_dict['char_sequence'] = char_seq
+                    qa_dict['sequence_idx'] = [len_ctx + len(text_question) + 2, len_ctx + len(ctx) + len(text_question) + 1]
+                    qa_dict['seq_length'] = len(ctx)
+                    labels = sample['label']
+                    label_list = []
+                    for lb in labels:
+                        entity = lb[0]
+                        start = int(lb[1])
+                        end = int(lb[2])
+
+                        start_ctx = 0
+                        end_ctx = 0
+                        if start >= len_ctx and end <= (len_ctx + len(ctx) - 1):
+                            start_ctx = start - len_ctx + len(text_question) + 2
+                            end_ctx = end - len_ctx + len(text_question) + 2
+                            if end_ctx > self.max_ctx_length:
+                                end_ctx = self.max_ctx_length - 1
+                            label_list.append([entity, start_ctx, end_ctx])
                     qa_dict['label_idx'] = label_list
-                    qa_dict['sequence_idx'] = [len_ctx, len_ctx + len(ctx) - 1]
                     l_sample.append(qa_dict)
+
                 len_ctx = len_ctx + len(ctx)
+
 
         return l_sample
 
@@ -148,7 +143,7 @@ class MyDataSet(Dataset):
 
         return torch.tensor(input_ids), torch.tensor(attention_mask), torch.tensor(firstSWindices)
 
-    def character2id(self, character_sentence, max_seq_length):
+    def character2id(self, character_sentence, max_ctx_length):
         char_ids = []
         for word in character_sentence:
             word_char_ids = []
@@ -158,17 +153,17 @@ class MyDataSet(Dataset):
                 else:
                     word_char_ids.append(self.char_vocab[char])
             char_ids.append(word_char_ids)
-        if len(char_ids) < max_seq_length:
-            char_ids += [[self.char_vocab['PAD']] * self.max_char_len] * (max_seq_length - len(char_ids))
+        if len(char_ids) < max_ctx_length:
+            char_ids += [[self.char_vocab['PAD']] * self.max_char_len] * (max_ctx_length - len(char_ids))
         else:
-            char_ids = char_ids[:max_seq_length]
+            char_ids = char_ids[:max_ctx_length]
         return torch.tensor(char_ids)
 
     def span_maxtrix_label(self, label):
         start, end, entity = [], [], []
         label = np.unique(label, axis=0).tolist()
         for lb in label:
-            if int(lb[1]) > self.max_seq_length or int(lb[2]) > self.max_seq_length:
+            if int(lb[1]) > self.max_ctx_length or int(lb[2]) > self.max_ctx_length:
                 start.append(0)
                 end.append(0)
             else:
@@ -180,7 +175,7 @@ class MyDataSet(Dataset):
                 print(lb)
         
         label = torch.sparse.FloatTensor(torch.tensor([start, end], dtype=torch.int64), torch.tensor(entity),
-                                         torch.Size([self.max_seq_length, self.max_seq_length])).to_dense()
+                                         torch.Size([self.max_ctx_length, self.max_ctx_length])).to_dense()
         
         return label
 
@@ -190,14 +185,14 @@ class MyDataSet(Dataset):
         context = sample['context']
         question = sample['question']
         char_seq = sample['char_sequence']
-        seq_length = len(question) + len(context) + 2        
+        seq_length = sample['seq_length']       
         label = sample['label_idx']
         sequence_idx = sample['sequence_idx']
         input_ids, attention_mask, firstSWindices = self.preprocess(self.tokenizer, context, question, sequence_idx, self.max_seq_length, self.max_ctx_length)
 
-        char_ids = self.character2id(char_seq, max_seq_length=self.max_seq_length)
-        if seq_length > self.max_seq_length:
-          seq_length = self.max_seq_length
+        char_ids = self.character2id(char_seq, max_ctx_length=self.max_ctx_length)
+        if seq_length > self.max_ctx_length:
+          seq_length = self.max_ctx_length
         label = self.span_maxtrix_label(label)
 
         return input_ids, attention_mask, firstSWindices, torch.tensor([seq_length]), char_ids, label.long()

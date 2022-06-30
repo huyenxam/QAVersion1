@@ -84,7 +84,7 @@ class Trainer(object):
                 output = self.model(**inputs)
 
                 optimizer.zero_grad()
-                mask = get_mask(max_length=self.args.max_seq_length, seq_length=seq_length)
+                mask = get_mask(max_length=self.args.max_ctx_length, seq_length=seq_length)
                 mask = mask.to(self.device)
                 tmp_out, tmp_label = get_useful_ones(output, label, mask)
 
@@ -140,7 +140,7 @@ class Trainer(object):
                     outputs.append(label_pred)
 
             seq_lengths.append(seq_length)
-            mask = get_mask(max_length=self.args.max_seq_length, seq_length=seq_length)
+            mask = get_mask(max_length=self.args.max_ctx_length, seq_length=seq_length)
             mask = mask.to(self.device)
 
             tmp_out, tmp_label = get_useful_ones(output, label, mask)
