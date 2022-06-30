@@ -49,7 +49,7 @@ class InputSampleTrain(object):
             len_ctx = 0
             list_context = []
             idx = 0
-            for i, ctx in context:
+            for i, ctx in enumerate(context):
                 if (len_ctx + len(ctx)) < self.max_seq_length:
                     qa_dict = {}
                     qa_dict['question'] = text_question
