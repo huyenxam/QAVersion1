@@ -58,25 +58,23 @@ class InputSampleTrain(object):
                     qa_dict['char_sequence'] = char_seq
                     qa_dict['sequence_idx'] = [len_ctx + len(text_question) + 2, len_ctx + len(ctx) + len(text_question) + 1]
                     qa_dict['seq_length'] = len(ctx)
-                    labels = sample['label']
-                    label_list = []
-                    for lb in labels:
-                        entity = lb[0]
-                        start = int(lb[1])
-                        end = int(lb[2])
 
-                        start_ctx = 0
-                        end_ctx = 0
-                        if start >= len_ctx and end <= (len_ctx + len(ctx) - 1):
-                            start_ctx = start - len_ctx + len(text_question) + 2
-                            end_ctx = end - len_ctx + len(text_question) + 2
-                            idx = i
-                            if end_ctx > self.max_ctx_length:
-                                end_ctx = self.max_ctx_length - 1
-                            label_list.append([entity, start_ctx, end_ctx])
+                    label_list = []
+                    label = sample['label'][0]
+                    entity = label[0]
+                    start = int(label[1])
+                    end = int(label[2])                    
+                    if start >= len_ctx and end <= (len_ctx + len(ctx) - 1):
+                        start = start - len_ctx + len(text_question) + 2
+                        end = end - len_ctx + len(text_question) + 2
+                        idx = i
+                        if end > self.max_seq_length:
+                            end = self.max_seq_length - 1
+                        label_list.append([entity, start, end])
+                        
                     qa_dict['label_idx'] = label_list
                     list_context.append(qa_dict)
-                    i += 1
+                    i = i + 1
                 len_ctx = len_ctx + len(ctx)
 
             try:
