@@ -5,7 +5,7 @@ import numpy as np
 from torch.utils.data import Dataset
 
 
-class InputSample(object):
+class InputSampleTrain(object):
     def __init__(self, path, max_char_len=None, max_seq_length=None, max_ctx_length=None):
         self.max_char_len = max_char_len
         self.max_seq_length = max_seq_length
@@ -27,7 +27,7 @@ class InputSample(object):
 
     def get_sample(self):
         l_sample = []
-        for i, sample in enumerate(self.list_sample):
+        for sample in self.list_sample:
             text_question = sample['question'].split(' ')
             
             context = sample['context']
@@ -47,7 +47,9 @@ class InputSample(object):
                 char_seq.append(character)
 
             len_ctx = 0
-            for ctx in context:
+            list_context = []
+            idx = 0
+            for i, ctx in context:
                 if (len_ctx + len(ctx)) < self.max_seq_length:
                     qa_dict = {}
                     qa_dict['question'] = text_question
@@ -67,23 +69,42 @@ class InputSample(object):
                         if start >= len_ctx and end <= (len_ctx + len(ctx) - 1):
                             start_ctx = start - len_ctx + len(text_question) + 2
                             end_ctx = end - len_ctx + len(text_question) + 2
+                            idx = i
                             if end_ctx > self.max_ctx_length:
                                 end_ctx = self.max_ctx_length - 1
                             label_list.append([entity, start_ctx, end_ctx])
                     qa_dict['label_idx'] = label_list
-                    l_sample.append(qa_dict)
-
+                    list_context.append(qa_dict)
                 len_ctx = len_ctx + len(ctx)
+
+            try:
+                if idx == (len(context) - 1):
+                    # l_sample.append(list_context[idx - 3]) 
+                    l_sample.append(list_context[idx - 2]) 
+                    l_sample.append(list_context[idx - 1]) 
+                    l_sample.append(list_context[idx]) 
+                elif idx == 0:
+                    # l_sample.append(list_context[idx + 3]) 
+                    l_sample.append(list_context[idx + 2]) 
+                    l_sample.append(list_context[idx + 1]) 
+                    l_sample.append(list_context[idx])
+                else:
+                    # l_sample.append(list_context[idx - 1]) 
+                    l_sample.append(list_context[idx]) 
+                    l_sample.append(list_context[idx + 1]) 
+                    l_sample.append(list_context[idx + 2])
+            except:
+                    l_sample.append(list_context[idx]) 
 
         return l_sample
 
 
-class MyDataSet(Dataset):
+class MyDataSetTrain(Dataset):
 
     def __init__(self, path, char_vocab_path, label_set_path,
                  max_char_len, tokenizer, max_seq_length, max_ctx_length):
 
-        self.samples = InputSample(path=path, max_char_len=max_char_len, max_seq_length=max_seq_length, max_ctx_length=max_ctx_length).get_sample()
+        self.samples = InputSampleTrain(path=path, max_char_len=max_char_len, max_seq_length=max_seq_length, max_ctx_length=max_ctx_length).get_sample()
         self.tokenizer = tokenizer
         self.max_seq_length = max_seq_length
         self.max_char_len = max_char_len

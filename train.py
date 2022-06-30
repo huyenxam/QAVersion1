@@ -1,12 +1,13 @@
 from transformers import AutoTokenizer
 from dataloader import MyDataSet
+from dataloaderTrain import MyDataSetTrain
 from trainer import Trainer
 import argparse
 
 
 def train(args):
     tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
-    train_dataset = MyDataSet(path=args.train_path, char_vocab_path=args.char_vocab_path,
+    train_dataset = MyDataSetTrain(path=args.train_path, char_vocab_path=args.char_vocab_path,
                               tokenizer=tokenizer, label_set_path=args.label_set_path,
                               max_char_len=args.max_char_len,
                               max_seq_length=args.max_seq_length,
